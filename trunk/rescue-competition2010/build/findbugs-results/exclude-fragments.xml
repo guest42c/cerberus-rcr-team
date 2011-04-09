@@ -1,0 +1,38 @@
+<fragments><FindBugsFilter>
+  <Match>
+    <Class name="gis2.RandomScenarioGenerator"/>
+    <Bug pattern="DMI_RANDOM_USED_ONLY_ONCE"/>
+  </Match>
+</FindBugsFilter>
+<FindBugsFilter>
+  <Match>
+    <Class name="maps.legacy.LegacyBuilding"/>
+    <Bug pattern="EI_EXPOSE_REP"/>
+    <Method name="getEntrances"/>
+  </Match>
+  <Match>
+    <Class name="maps.legacy.LegacyBuilding"/>
+    <Bug pattern="EI_EXPOSE_REP"/>
+    <Method name="getApexes"/>
+  </Match>
+  <Match>
+    <Class name="maps.legacy.LegacyNode"/>
+    <Bug pattern="EI_EXPOSE_REP"/>
+    <Method name="getEdges"/>
+  </Match>
+</FindBugsFilter>
+<FindBugsFilter>
+  <Match>
+    <Class name="rescuecore2.worldmodel.properties.BooleanProperty"/>
+    <Bug pattern="NP_BOOLEAN_RETURN_NULL"/>
+    <Method name="getValue"/>
+  </Match>
+</FindBugsFilter>
+<FindBugsFilter>
+  <Match>
+    <Class name="rescuecore2.standard.entities.Area"/>
+    <Bug pattern="EI_EXPOSE_REP"/>
+    <Method name="getApexList"/>
+  </Match>
+</FindBugsFilter>
+</fragments>

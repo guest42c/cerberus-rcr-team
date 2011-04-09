@@ -1,0 +1,10 @@
+Test negative size input
+rescuecore2.connection.StreamConnection@79a2e7
+16-byte message
+Offset    Hex         Int
+0         0x00000004    0   0   0   4
+4         0x54657374   84 101 115 116
+8         0x00000004    0   0   0   4
+12        0x00000000    0   0   0   0
+Test negative size input finished
+
