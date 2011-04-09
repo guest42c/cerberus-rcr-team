@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0-beta2">
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/clear/src/clear/ClearSimulator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/collapse/src/collapse/CollapseSimulator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/collapse/src/collapse/CollapseSimulatorGUI.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/GISServer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/GMLWorldModelCreator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/RandomScenarioGenerator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/Scenario.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/ScenarioException.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/AbstractFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/AbstractTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/AgentOverlay.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/CancelledByUserException.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/Function.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/PlaceAmbulanceCentreTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/PlaceAmbulanceTeamTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/PlaceCivilianTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/PlaceFireBrigadeTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/PlaceFireStationTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/PlaceFireTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/PlacePoliceForceTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/PlacePoliceOfficeTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/PlaceRefugeTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/RandomiseFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/RemoveAmbulanceCentreTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/RemoveAmbulanceTeamTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/RemoveCivilianTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/RemoveFireBrigadeTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/RemoveFireStationTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/RemoveFireTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/RemovePoliceForceTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/RemovePoliceOfficeTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/RemoveRefugeTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/ScenarioEditor.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/ShapeTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/gis2/src/gis2/scenario/Tool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/handy/src/handy/swing/SliderComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/human/src/human/ControlledAgentGUI.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/human/src/human/ControlledAmbulanceTeam.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/human/src/human/ControlledFireBrigade.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/human/src/human/ControlledPoliceForce.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/ignition/src/ignition/IgnitionModel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/ignition/src/ignition/IgnitionSimulator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/ignition/src/ignition/RandomIgnitionModel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/AbstractCommandFilter.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/AbstractCommunicationModel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/AbstractKernelComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/AgentProxy.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/AgentRegistrar.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/ChainedCommandFilter.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/CommandCollector.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/CommandFilter.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/CommunicationModel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/ComponentManager.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/CompositeCommandCollector.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/EntityIDGenerator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/FrozenAgentsCommandFilter.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/InlineComponentLauncher.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/Kernel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/KernelComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/KernelConstants.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/KernelException.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/KernelListener.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/KernelListenerAdapter.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/KernelStartupOptions.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/KernelState.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/OrTerminationCondition.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/Perception.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/RemoteGISWorldModelCreator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/SimulatorProxy.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/StartKernel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/TerminationCondition.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/TimedCommandCollector.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/TimestepTerminationCondition.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/ViewerProxy.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/WorldModelCreator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/WrongTimeCommandFilter.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/ui/ComponentManagerGUI.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/ui/KernelControlPanel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/ui/KernelGUI.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/ui/KernelStartupPanel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/ui/KernelStatus.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/ui/ScoreGraph.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/kernel/src/kernel/ui/ScoreTable.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/ConstantConversion.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/CoordinateConversion.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/IdentityConversion.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/Map.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/MapException.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/MapFormat.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/MapReader.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/MapTools.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/MapWriter.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/ScaleConversion.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/Convert.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/ConvertStep.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/legacy2gml/BuildingInfo.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/legacy2gml/LegacyToGML.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/legacy2gml/NodeInfo.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/legacy2gml/RoadInfo.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/legacy2gml/Tools.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/CleanOSMStep.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/ComputePassableEdgesStep.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/Constants.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/ConvertTools.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/Convertor.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/CreateBuildingsStep.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/CreateEntrancesStep.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/DirectedEdge.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/DirectedEdgeShapeInfo.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/Edge.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/EdgeShapeInfo.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/MakeObjectsStep.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/MakeTempObjectsStep.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/ManagedObject.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/MergeShapesStep.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/Node.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/OSMBuildingInfo.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/OSMIntersectionInfo.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/OSMRoadInfo.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/OSMShape.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/PruneStep.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/RemoveShapesStep.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/ScanOSMStep.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/SplitIntersectingEdgesStep.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/SplitShapesStep.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/TemporaryBuilding.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/TemporaryIntersection.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/TemporaryMap.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/TemporaryObject.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/TemporaryObjectInfo.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/TemporaryRoad.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/buildings/BuildingSpaceFiller.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/buildings/RowHousingBuildingSpaceFiller.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/buildings/RowHousingType.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/buildings/row/RectangularDuplexRowFiller.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/buildings/row/RowFiller.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/convert/osm2gml/buildings/row/ThinDuplexRowFiller.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/GMLBuilding.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/GMLCoordinates.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/GMLDirectedEdge.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/GMLEdge.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/GMLException.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/GMLMap.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/GMLMapFormat.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/GMLNode.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/GMLObject.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/GMLRoad.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/GMLShape.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/GMLSpace.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/GMLTools.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/ViewGMLMap.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/debug/GMLDirectedEdgeShapeInfo.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/debug/GMLEdgeShapeInfo.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/debug/GMLNodeShapeInfo.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/debug/GMLShapeInfo.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/AbstractFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/AbstractTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/CancelledByUserException.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/ComputePassableEdgesFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/CreateBuildingTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/CreateEdgeTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/CreateNodeTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/CreateRoadTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/CreateShapeTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/CreateSpaceTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/DeleteEdgeTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/DeleteNodeTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/DeleteShapeTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/FixAttachedObjectsFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/FixDegenerateShapesFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/FixDuplicateEdgesFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/FixLatLongTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/FixNearbyNodesFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/Function.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/GMLEditor.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/InspectTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/MergeLinesTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/MergeNodesTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/MoveNodeTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/PanZoomTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/ProgressFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/PruneOrphanEdgesFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/PruneOrphanNodesFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/ScaleFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/Snap.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/SplitEdgeTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/SplitEdgesFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/SplitShapeTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/TogglePassableTool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/Tool.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/editor/ValidateFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/formats/Common.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/formats/GeospatialInformationAuthorityFormat.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/formats/MeijoFormat.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/formats/OrdnanceSurveyFormat.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/formats/RobocupFormat.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/generator/GMLMapGenerator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/generator/ManhattanGenerator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/generator/MapGenerator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/BuildingDecorator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/CrossNodeDecorator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/DecoratorOverlay.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/EdgeDecorator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/FilledShapeDecorator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/GMLMapViewer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/GMLObjectInspector.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/LineEdgeDecorator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/LineOverlay.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/NodeDecorator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/NullBuildingDecorator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/NullEdgeDecorator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/NullNodeDecorator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/NullRoadDecorator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/NullSpaceDecorator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/Overlay.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/RectangleOverlay.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/RoadDecorator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/SpaceDecorator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/gml/view/SquareNodeDecorator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/legacy/LegacyBuilding.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/legacy/LegacyMap.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/legacy/LegacyMapFormat.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/legacy/LegacyNode.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/legacy/LegacyObject.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/legacy/LegacyRoad.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/osm/OSMBuilding.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/osm/OSMException.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/osm/OSMMap.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/osm/OSMMapExtractor.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/osm/OSMMapViewer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/osm/OSMNode.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/osm/OSMObject.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/osm/OSMRoad.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/osm/OSMWay.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/osm/debug/OSMWayShapeInfo.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/validate/GMLConnectivityValidator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/validate/GMLMapValidator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/validate/GMLShapeValidator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/validate/GMLTraversabilityValidator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/validate/JTSTools.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/validate/MapValidator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/validate/ValidationError.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/maps/src/maps/validate/ValidationException.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/misc/src/misc/DamageType.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/misc/src/misc/HumanAttributes.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/misc/src/misc/MiscParameters.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/misc/src/misc/MiscSimulator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/misc/src/misc/MiscSimulatorGUI.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/Constants.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/GUIComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/LaunchComponents.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/Timestep.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/components/AbstractAgent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/components/AbstractComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/components/AbstractSimulator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/components/AbstractViewer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/components/Agent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/components/Component.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/components/ComponentConnectionException.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/components/ComponentInitialisationException.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/components/ComponentLauncher.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/components/RequestIDGenerator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/components/Simulator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/components/TCPComponentLauncher.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/components/Viewer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/config/AbstractValueConstraint.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/config/ClassNameSetValueConstraint.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/config/ClassNameValueConstraint.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/config/Config.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/config/ConfigConstraint.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/config/ConfigException.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/config/DiscreteValueConstraint.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/config/FloatValueConstraint.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/config/IntegerValueConstraint.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/config/NoSuchConfigOptionException.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/config/ValueConstraint.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/connection/AbstractConnection.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/connection/ByteLogger.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/connection/Connection.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/connection/ConnectionException.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/connection/ConnectionListener.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/connection/ConnectionManager.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/connection/ConnectionManagerListener.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/connection/MessageQueueConnectionListener.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/connection/StreamConnection.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/connection/TCPConnection.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/AbstractLogReader.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/AbstractLogWriter.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/CommandsRecord.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/ConfigRecord.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/EndLogRecord.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/FileLogReader.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/FileLogWriter.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/InitialConditionsRecord.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/LogException.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/LogReader.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/LogRecord.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/LogViewer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/LogWriter.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/Logger.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/PerceptionRecord.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/RecordType.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/StartLogRecord.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/StreamLogReader.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/StreamLogWriter.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/log/UpdatesRecord.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/AbstractCommand.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/AbstractMessage.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/AbstractMessageComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/Command.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/Control.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/Message.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/MessageComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/components/ChangeSetComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/components/CommandListComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/components/ConfigComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/components/EntityComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/components/EntityIDComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/components/EntityIDListComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/components/EntityListComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/components/IntComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/components/IntListComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/components/RawDataComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/components/StringComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/components/StringListComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/AKAcknowledge.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/AKConnect.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/ControlMessageFactory.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/ControlMessageURN.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/EntityIDRequest.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/EntityIDResponse.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/GKConnectError.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/GKConnectOK.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/KAConnectError.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/KAConnectOK.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/KASense.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/KGAcknowledge.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/KGConnect.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/KSCommands.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/KSConnectError.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/KSConnectOK.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/KSUpdate.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/KVConnectError.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/KVConnectOK.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/KVTimestep.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/SKAcknowledge.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/SKConnect.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/SKUpdate.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/Shutdown.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/VKAcknowledge.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/messages/control/VKConnect.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/CommandLineOptions.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/CountingInputStream.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/EncodingTools.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/EntityTools.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/Handy.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/MutableBoolean.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/Pair.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/RoundingNumberGenerator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/WorkerThread.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/collections/ArrayTools.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/collections/DelegatingMap.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/collections/LazyMap.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/geometry/GeometryTools2D.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/geometry/Line2D.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/geometry/Point2D.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/geometry/Vector2D.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/geometry/spatialindex/AbstractSpatialIndex.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/geometry/spatialindex/BBTree.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/geometry/spatialindex/Indexable.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/geometry/spatialindex/LineRegion.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/geometry/spatialindex/NullRegion.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/geometry/spatialindex/PointRegion.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/geometry/spatialindex/RectangleRegion.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/geometry/spatialindex/Region.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/geometry/spatialindex/SpatialIndex.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/geometry/spatialindex/Tools.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/gui/ChangeSetComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/gui/ConfigTree.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/gui/DrawingTools.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/gui/ListModelList.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/gui/PanZoomListener.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/gui/ScreenTransform.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/gui/ShapeDebugFrame.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/java/JavaTools.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/java/LoadableType.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/java/LoadableTypeCallback.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/misc/java/LoadableTypeProcessor.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/registry/AbstractEntityFactory.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/registry/AbstractMessageFactory.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/registry/AbstractPropertyFactory.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/registry/EntityFactory.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/registry/FilterEntityFactory.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/registry/FilterMessageFactory.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/registry/FilterPropertyFactory.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/registry/MessageFactory.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/registry/PropertyFactory.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/registry/Registry.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/score/AbstractScoreFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/score/CompositeScoreFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/score/ConstantScoreFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/score/CumulativeScoreFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/score/DelegatingScoreFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/score/InverseScoreFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/score/MultiplicativeScoreFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/score/ScoreFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/score/UnaryOperatorScoreFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/score/WeightedScoreFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/view/AbstractViewLayer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/view/EntityInspector.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/view/Icons.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/view/LayerViewComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/view/RenderedObject.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/view/ViewComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/view/ViewLayer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/view/ViewListener.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/AbstractEntity.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/AbstractProperty.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/AbstractWorldModel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/ChangeSet.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/DefaultWorldModel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/Entity.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/EntityID.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/EntityListener.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/Property.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/WorldModel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/WorldModelListener.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/properties/BooleanProperty.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/properties/DoubleProperty.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/properties/EntityRefListProperty.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/properties/EntityRefProperty.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/properties/IntArrayProperty.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/properties/IntProperty.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/src/rescuecore2/worldmodel/properties/Point2DProperty.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/resq-fire/src/firesimulator/FireSimulatorWrapper.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/sample/src/sample/AbstractSampleAgent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/sample/src/sample/ChannelTestAgent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/sample/src/sample/CustomRegistryTestAgent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/sample/src/sample/DistanceSorter.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/sample/src/sample/DummyAgent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/sample/src/sample/LaunchSampleAgents.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/sample/src/sample/SampleAmbulanceTeam.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/sample/src/sample/SampleCentre.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/sample/src/sample/SampleCivilian.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/sample/src/sample/SampleFireBrigade.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/sample/src/sample/SamplePoliceForce.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/sample/src/sample/SampleSearch.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/sample/src/sample/SampleSimulator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/sample/src/sample/SampleViewer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/Constants.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/StandardConstants.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/components/StandardAgent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/components/StandardSimulator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/components/StandardViewer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/AmbulanceCentre.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/AmbulanceTeam.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/Area.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/Blockade.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/Building.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/Civilian.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/Edge.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/EdgeListProperty.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/FireBrigade.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/FireStation.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/Human.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/PoliceForce.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/PoliceOffice.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/Refuge.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/Road.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/StandardEntity.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/StandardEntityConstants.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/StandardEntityFactory.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/StandardEntityURN.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/StandardPropertyFactory.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/StandardPropertyURN.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/StandardWorldModel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/entities/World.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/BuriedAgentsCommandFilter.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/CiviliansDeadOrRescuedTerminationCondition.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/DeadAgentsCommandFilter.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/LineOfSightPerception.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/MapValidationException.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/SingleCommandFilter.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/StandardAgentRegistrar.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/StandardCommandCollector.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/StandardPerception.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/StandardWorldModelViewerComponent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/comms/AbstractChannel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/comms/ChainedNoise.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/comms/Channel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/comms/ChannelCommunicationModel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/comms/DropoutNoise.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/comms/FailureNoise.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/comms/InvalidMessageException.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/comms/Noise.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/comms/RadioChannel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/comms/StandardCommunicationModel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/comms/StaticNoise.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/kernel/comms/VoiceChannel.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/messages/AKClear.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/messages/AKExtinguish.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/messages/AKLoad.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/messages/AKMove.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/messages/AKRescue.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/messages/AKRest.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/messages/AKSay.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/messages/AKSpeak.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/messages/AKSubscribe.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/messages/AKTell.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/messages/AKUnload.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/messages/StandardMessageFactory.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/messages/StandardMessageURN.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/misc/AgentPath.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/score/BuildingDamageScoreFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/score/CiviliansAliveScoreFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/score/DiscoveryScoreFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/score/DistanceTravelledScoreFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/score/HealthScoreFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/score/LegacyScoreFunction.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/view/AnimatedHumanLayer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/view/AnimatedWorldModelViewer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/view/AreaLayer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/view/AreaNeighboursLayer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/view/BuildingIconLayer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/view/BuildingLayer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/view/CommandLayer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/view/HumanLayer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/view/PositionHistoryLayer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/view/RoadBlockageLayer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/view/RoadLayer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/view/StandardEntityViewLayer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/view/StandardViewLayer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/standard/src/rescuecore2/standard/view/StandardWorldModelViewer.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/traffic3/src/traffic3/manager/TrafficManager.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/traffic3/src/traffic3/objects/Force.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/traffic3/src/traffic3/objects/TrafficAgent.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/traffic3/src/traffic3/objects/TrafficArea.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/traffic3/src/traffic3/objects/TrafficBlockade.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/traffic3/src/traffic3/simulator/PathElement.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/traffic3/src/traffic3/simulator/TrafficConstants.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/traffic3/src/traffic3/simulator/TrafficSimulator.java">
+</file>
+<file name="/home/guilherme/workspace/rescue-competition2010/modules/traffic3/src/traffic3/simulator/TrafficSimulatorGUI.java">
+</file>
+</checkstyle>

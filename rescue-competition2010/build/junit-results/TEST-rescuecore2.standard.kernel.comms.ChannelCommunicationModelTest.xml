@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="atari" name="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" tests="17" time="0.3" timestamp="2011-04-02T19:32:41">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="lib.dir" value="/home/guilherme/workspace/rescue-competition2010/lib" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot Tiered Compilers" />
+    <property name="checkstyle.version" value="all-5.0-beta2" />
+    <property name="os.name" value="Linux" />
+    <property name="cobertura.home" value="/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes" />
+    <property name="findbugs.home" value="/home/guilherme/workspace/rescue-competition2010/build-tools/findbugs-1.3.8" />
+    <property name="supplement.dir" value="/home/guilherme/workspace/rescue-competition2010/supplement" />
+    <property name="editor.gmlmap" value="" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="osm2gml.gmlmap" value="../maps/gml/southampton/map.gml" />
+    <property name="net.sourceforge.cobertura.datafile" value="/home/guilherme/workspace/rescue-competition2010/build/cobertura-results/cobertura.ser" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="jar.dir" value="/home/guilherme/workspace/rescue-competition2010/jars" />
+    <property name="java.runtime.version" value="1.6.0_20-b20" />
+    <property name="tests.basedir" value="/home/guilherme/workspace/rescue-competition2010/modules/standard/test" />
+    <property name="user.name" value="guilherme" />
+    <property name="cobertura.output.dir" value="/home/guilherme/workspace/rescue-competition2010/build/cobertura-results" />
+    <property name="log4j.configuration" value="log4j.test.properties" />
+    <property name="debug" value="true" />
+    <property name="build.dir" value="/home/guilherme/workspace/rescue-competition2010/build" />
+    <property name="cobertura.coveragefile" value="/home/guilherme/workspace/rescue-competition2010/build/cobertura-results/cobertura.ser" />
+    <property name="cobertura.output.format" value="html" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-6-openjdk/jre/lib/i386" />
+    <property name="osm2gml.osmmap" value="../maps/osm/southampton.osm" />
+    <property name="edu.umd.cs.findbugs.FindBugs2.executeReturnCode.a752130a-70dc-4a3c-bac7-886057a4808c" value="0" />
+    <property name="ant.project.name" value="Robocup rescue simulation software" />
+    <property name="java.version" value="1.6.0_20" />
+    <property name="version" value="1.0-prealpha" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="findbugs.version" value="1.3.8" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="modules.sample.depend" value="rescuecore2,standard,kernel" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="kernel.startup.config" value="-c config/kernel-inline.cfg" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/usr/lib/jvm/java-6-openjdk/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="checkstyle.output.dir" value="/home/guilherme/workspace/rescue-competition2010/build/checkstyle-results" />
+    <property name="ant.file" value="/home/guilherme/workspace/rescue-competition2010/build.xml" />
+    <property name="os.version" value="2.6.32-24-generic" />
+    <property name="modules.standard.depend" value="rescuecore2,kernel" />
+    <property name="modules.dir" value="/home/guilherme/workspace/rescue-competition2010/modules" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="19.0-b09" />
+    <property name="ant.file.Robocup rescue simulation software" value="/home/guilherme/workspace/rescue-competition2010/build.xml" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="javac.flags" value="-Xlint:unchecked,deprecation" />
+    <property name="findbugs.output.format" value="html" />
+    <property name="junit.output.dir" value="/home/guilherme/workspace/rescue-competition2010/build/junit-results" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="modules.traffic3.depend" value="rescuecore2,standard" />
+    <property name="user.home" value="/home/guilherme" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="java.library.path" value="/usr/lib/jvm/java-6-openjdk/jre/lib/i386/server:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib" />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="buildtools.dir" value="/home/guilherme/workspace/rescue-competition2010/build-tools" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="java.class.path" value="/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/clear.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/collapse.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/gis2.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/handy.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/human.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/ignition.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/kernel.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/maps.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/misc.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/rescuecore2.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/sample.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/standard.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/traffic3.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/cobertura.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/asm-3.0.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/asm-tree-3.0.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/jakarta-oro-2.0.8.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/log4j-1.2.15.jar:/home/guilherme/workspace/rescue-competition2010/supplement:/home/guilherme/workspace/rescue-competition2010/jars/clear.jar:/home/guilherme/workspace/rescue-competition2010/jars/collapse.jar:/home/guilherme/workspace/rescue-competition2010/jars/gis2.jar:/home/guilherme/workspace/rescue-competition2010/jars/handy.jar:/home/guilherme/workspace/rescue-competition2010/jars/human.jar:/home/guilherme/workspace/rescue-competition2010/jars/ignition.jar:/home/guilherme/workspace/rescue-competition2010/jars/kernel.jar:/home/guilherme/workspace/rescue-competition2010/jars/maps.jar:/home/guilherme/workspace/rescue-competition2010/jars/misc.jar:/home/guilherme/workspace/rescue-competition2010/jars/rescuecore2.jar:/home/guilherme/workspace/rescue-competition2010/jars/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/jars/sample.jar:/home/guilherme/workspace/rescue-competition2010/jars/standard.jar:/home/guilherme/workspace/rescue-competition2010/jars/traffic3.jar:/home/guilherme/workspace/rescue-competition2010/lib/commons-logging-1.1.1.jar:/home/guilherme/workspace/rescue-competition2010/lib/dom4j.jar:/home/guilherme/workspace/rescue-competition2010/lib/jaxen-1.1.1.jar:/home/guilherme/workspace/rescue-competition2010/lib/jcommon-1.0.16.jar:/home/guilherme/workspace/rescue-competition2010/lib/jfreechart-1.0.13.jar:/home/guilherme/workspace/rescue-competition2010/lib/jscience-4.3.jar:/home/guilherme/workspace/rescue-competition2010/lib/jsi-1.0b2p1.jar:/home/guilherme/workspace/rescue-competition2010/lib/jts-1.11.jar:/home/guilherme/workspace/rescue-competition2010/lib/junit-4.5.jar:/home/guilherme/workspace/rescue-competition2010/lib/log4j-1.2.15.jar:/home/guilherme/workspace/rescue-competition2010/lib/rescuecore.jar:/home/guilherme/workspace/rescue-competition2010/lib/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/lib/trove-0.1.8.jar:/home/guilherme/workspace/rescue-competition2010/lib/uncommons-maths-1.2.jar:/home/guilherme/workspace/rescue-competition2010/lib/xml-0.0.6.jar:/home/guilherme/workspace/rescue-competition2010/modules/standard/test:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.7.1.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar" />
+    <property name="ant.version" value="Apache Ant version 1.7.1 compiled on September 8 2010" />
+    <property name="modules.ignition.depend" value="rescuecore2,standard" />
+    <property name="modules" value="rescuecore2,kernel,standard,sample,handy,human,collapse,misc,resq-fire,ignition,maps,clear,traffic3,gis2" />
+    <property name="modules.clear.depend" value="rescuecore2,standard" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="modules.gis2.depend" value="rescuecore2,standard,maps,kernel" />
+    <property name="legacy2gml.gmlmap" value="../maps/gml/legacy/Foligno/map.gml" />
+    <property name="gis2.randomscenario.dir" value="../maps/gml/legacy/VC" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="modules.maps.depend" value="rescuecore2" />
+    <property name="modules.human.depend" value="rescuecore2,standard,sample" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="os.arch" value="i386" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="user.dir" value="/home/guilherme/workspace/rescue-competition2010" />
+    <property name="line.separator" value="
+" />
+    <property name="java.vm.name" value="OpenJDK Server VM" />
+    <property name="legacy2gml.legacymap" value="../maps/legacy/Foligno/" />
+    <property name="basedir" value="/home/guilherme/workspace/rescue-competition2010" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="modules.resq-fire.depend" value="rescuecore2,standard" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="cobertura.version" value="1.9.2" />
+    <property name="modules.misc.depend" value="rescuecore2,standard" />
+    <property name="kernel.startup.args" value="" />
+    <property name="modules.collapse.depend" value="rescuecore2,standard" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="javadoc.dir" value="/home/guilherme/workspace/rescue-competition2010/docs/javadoc" />
+    <property name="modules.kernel.depend" value="rescuecore2,handy" />
+    <property name="findbugs.output.dir" value="/home/guilherme/workspace/rescue-competition2010/build/findbugs-results" />
+    <property name="cobertura.instrument.dir" value="/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented" />
+  </properties>
+  <testcase classname="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" name="testName" time="0.014" />
+  <testcase classname="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" name="testSubscribeBasics" time="0.103" />
+  <testcase classname="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" name="testSubscribeMultipleChannels" time="0.015" />
+  <testcase classname="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" name="testSubscribeMultipleTimesteps" time="0.015" />
+  <testcase classname="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" name="testVoiceDoesNotNeedSubscribe" time="0.016" />
+  <testcase classname="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" name="testVoiceWorksWithSubscribe" time="0.013" />
+  <testcase classname="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" name="testVoiceDistance" time="0.013" />
+  <testcase classname="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" name="testInvalidConfig" time="0.003" />
+  <testcase classname="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" name="testPartlyInvalidConfig" time="0.003" />
+  <testcase classname="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" name="testMissingChannelsConfig" time="0.003" />
+  <testcase classname="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" name="testExtraChannelsConfig" time="0.003" />
+  <testcase classname="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" name="testIncorrectChannel" time="0.005" />
+  <testcase classname="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" name="testSubscribeNonExistantEntity" time="0.006" />
+  <testcase classname="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" name="testSubscriptionLimits" time="0.009" />
+  <testcase classname="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" name="testSubscriptionRemovesOldChannels" time="0.007" />
+  <testcase classname="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" name="testBadSubscriptionKeepsOKChannels" time="0.008" />
+  <testcase classname="rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest" name="testSubscribeFromNonAgent" time="0.005" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: []
+Heard   : []
+INFO root : Created channel: Radio channel 0 (bandwidth = 128)
+INFO root : Created channel: Radio channel 1 (bandwidth = 128)
+INFO root : Created channel: Radio channel 2 (bandwidth = 128)
+INFO root : Created channel: Radio channel 3 (bandwidth = 128)
+DEBUG root : ChannelCommunicationModel processing commands at time 1: [urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 1, Channels = [0], urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 1, Channels = [0]
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Radio channel 0 (bandwidth = 128) accepted message from 1
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (1)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 8 bytes of raw data]
+Expected: []
+Heard   : []
+INFO root : Created channel: Radio channel 0 (bandwidth = 128)
+INFO root : Created channel: Radio channel 1 (bandwidth = 128)
+INFO root : Created channel: Radio channel 2 (bandwidth = 128)
+INFO root : Created channel: Radio channel 3 (bandwidth = 128)
+DEBUG root : ChannelCommunicationModel processing commands at time 1: [urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 1, Channels = [0], urn:rescuecore2.standard:message:subscribe : Agent ID = 2, Time = 1, Channels = [1], urn:rescuecore2.standard:message:subscribe : Agent ID = 3, Time = 1, Channels = [0, 1], urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 2, Message = 8 bytes of raw data]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 1, Channels = [0]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 2, Time = 1, Channels = [1]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 3, Time = 1, Channels = [0, 1]
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Radio channel 0 (bandwidth = 128) accepted message from 1
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (1)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (3)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 8 bytes of raw data through channel 1
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 8 bytes of raw data
+DEBUG root : Radio channel 1 (bandwidth = 128) accepted message from 1
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 8 bytes of raw data for agent Civilian (2)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 8 bytes of raw data
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 8 bytes of raw data for agent Civilian (3)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 8 bytes of raw data
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 2, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 2, Message = 8 bytes of raw data through channel 2
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 2, Message = 8 bytes of raw data
+DEBUG root : Radio channel 2 (bandwidth = 128) accepted message from 1
+
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 3, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 3, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 3, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 3, Channel = 0, Message = 8 bytes of raw data]
+INFO root : Created channel: Radio channel 0 (bandwidth = 128)
+INFO root : Created channel: Radio channel 1 (bandwidth = 128)
+INFO root : Created channel: Radio channel 2 (bandwidth = 128)
+INFO root : Created channel: Radio channel 3 (bandwidth = 128)
+DEBUG root : ChannelCommunicationModel processing commands at time 1: [urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 1, Channels = [0], urn:rescuecore2.standard:message:subscribe : Agent ID = 2, Time = 1, Channels = [0]]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 1, Channels = [0]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 2, Time = 1, Channels = [0]
+DEBUG root : ChannelCommunicationModel processing commands at time 2: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data]
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Radio channel 0 (bandwidth = 128) accepted message from 1
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data for agent Civilian (1)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data for agent Civilian (2)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : ChannelCommunicationModel processing commands at time 3: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 3, Channel = 0, Message = 8 bytes of raw data]
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 3, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 3, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 3, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Radio channel 0 (bandwidth = 128) accepted message from 1
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 3, Channel = 0, Message = 8 bytes of raw data for agent Civilian (1)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 3, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 3, Channel = 0, Message = 8 bytes of raw data for agent Civilian (2)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 3, Channel = 0, Message = 8 bytes of raw data
+
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+INFO root : Created channel: Voice channel 0 (range = 10000, max 2 messages of size 100)
+DEBUG root : ChannelCommunicationModel processing commands at time 1: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (1) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (1)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (2) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (2)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (3) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (3)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (4) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (4)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Fire brigade (5) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire brigade (5)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Fire brigade (6) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire brigade (6)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Police force (7) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police force (7)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Police force (8) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police force (8)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Ambulance team (9) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance team (9)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Ambulance team (10) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance team (10)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (1) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (1)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (2) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (2)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (3) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (3)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (4) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (4)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Fire brigade (5) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire brigade (5)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Fire brigade (6) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire brigade (6)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Police force (7) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police force (7)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Police force (8) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police force (8)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Ambulance team (9) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance team (9)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Ambulance team (10) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance team (10)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+INFO root : Created channel: Voice channel 0 (range = 10000, max 2 messages of size 100)
+INFO root : Created channel: Radio channel 1 (bandwidth = 128)
+INFO root : Created channel: Radio channel 2 (bandwidth = 128)
+INFO root : Created channel: Radio channel 3 (bandwidth = 128)
+DEBUG root : ChannelCommunicationModel processing commands at time 1: [urn:rescuecore2.standard:message:subscribe : Agent ID = 2, Time = 1, Channels = [0], urn:rescuecore2.standard:message:subscribe : Agent ID = 3, Time = 1, Channels = [1], urn:rescuecore2.standard:message:subscribe : Agent ID = 4, Time = 1, Channels = [0, 1], urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 2, Time = 1, Channels = [0]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 3, Time = 1, Channels = [1]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 4, Time = 1, Channels = [0, 1]
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (1) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (1)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (2) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (2)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (3) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (3)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (4) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (4)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Fire brigade (5) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire brigade (5)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Fire brigade (6) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire brigade (6)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Police force (7) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police force (7)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Police force (8) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police force (8)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Ambulance team (9) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance team (9)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Ambulance team (10) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance team (10)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (1) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (1)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (2) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (2)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (3) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (3)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (4) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (4)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Fire brigade (5) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire brigade (5)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Fire brigade (6) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire brigade (6)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Police force (7) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police force (7)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Police force (8) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police force (8)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Ambulance team (9) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance team (9)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Ambulance team (10) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance team (10)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+INFO root : Created channel: Voice channel 0 (range = 10000, max 2 messages of size 100)
+DEBUG root : ChannelCommunicationModel processing commands at time 1: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (1) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (1)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (2) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (2)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Fire brigade (5) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire brigade (5)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Fire brigade (6) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire brigade (6)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Police force (7) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police force (7)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Police force (8) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police force (8)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Ambulance team (9) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance team (9)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Ambulance team (10) can hear voice message from Civilian (1)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance team (10)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (1) can hear voice message from Civilian (2)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (1)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (2) can hear voice message from Civilian (2)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (2)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (3) can hear voice message from Civilian (2)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (3)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Fire brigade (5) can hear voice message from Civilian (2)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire brigade (5)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Fire brigade (6) can hear voice message from Civilian (2)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire brigade (6)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Police force (7) can hear voice message from Civilian (2)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police force (7)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Police force (8) can hear voice message from Civilian (2)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police force (8)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Ambulance team (9) can hear voice message from Civilian (2)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance team (9)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Ambulance team (10) can hear voice message from Civilian (2)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance team (10)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 2, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (2) can hear voice message from Civilian (3)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (2)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (3) can hear voice message from Civilian (3)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (3)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Fire brigade (5) can hear voice message from Civilian (3)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire brigade (5)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Fire brigade (6) can hear voice message from Civilian (3)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire brigade (6)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Police force (7) can hear voice message from Civilian (3)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police force (7)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Police force (8) can hear voice message from Civilian (3)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police force (8)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Ambulance team (9) can hear voice message from Civilian (3)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance team (9)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Ambulance team (10) can hear voice message from Civilian (3)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance team (10)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 3, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Civilian (4) can hear voice message from Civilian (4)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (4)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Fire brigade (5) can hear voice message from Civilian (4)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire brigade (5)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Fire brigade (6) can hear voice message from Civilian (4)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire brigade (6)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Police force (7) can hear voice message from Civilian (4)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police force (7)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Police force (8) can hear voice message from Civilian (4)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police force (8)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Ambulance team (9) can hear voice message from Civilian (4)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance team (9)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Ambulance team (10) can hear voice message from Civilian (4)
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance team (10)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 4, Time = 1, Channel = 0, Message = 8 bytes of raw data
+
+Looking for Unrecognised channel type
+ERROR root : Unrecognised channel type: comms.channels.0.type = 'blah'
+
+Looking for Unrecognised channel type
+ERROR root : Unrecognised channel type: comms.channels.0.type = 'blah'
+INFO root : Created channel: Radio channel 1 (bandwidth = 128)
+
+INFO root : Created channel: Radio channel 0 (bandwidth = 128)
+
+INFO root : Created channel: Radio channel 0 (bandwidth = 128)
+
+Looking for Unrecognised channel: 10
+Expected: []
+Heard   : []
+Expected: []
+Heard   : []
+Expected: []
+Heard   : []
+Expected: []
+Heard   : []
+INFO root : Created channel: Radio channel 0 (bandwidth = 128)
+INFO root : Created channel: Radio channel 1 (bandwidth = 128)
+INFO root : Created channel: Radio channel 2 (bandwidth = 128)
+INFO root : Created channel: Radio channel 3 (bandwidth = 128)
+DEBUG root : ChannelCommunicationModel processing commands at time 1: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 10, Message = 8 bytes of raw data]
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 10, Message = 8 bytes of raw data
+WARN root : Invalid message: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 10, Message = 8 bytes of raw data: Unrecognised channel: 10
+
+Looking for Couldn't find entity -5
+Expected: []
+Heard   : []
+Expected: []
+Heard   : []
+Expected: []
+Heard   : []
+Expected: []
+Heard   : []
+INFO root : Created channel: Radio channel 0 (bandwidth = 128)
+INFO root : Created channel: Radio channel 1 (bandwidth = 128)
+INFO root : Created channel: Radio channel 2 (bandwidth = 128)
+INFO root : Created channel: Radio channel 3 (bandwidth = 128)
+DEBUG root : ChannelCommunicationModel processing commands at time 1: [urn:rescuecore2.standard:message:subscribe : Agent ID = -5, Time = 1, Channels = [0], urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 8 bytes of raw data]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = -5, Time = 1, Channels = [0]
+WARN root : Couldn't find entity -5
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 8 bytes of raw data through channel 1
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 8 bytes of raw data
+DEBUG root : Radio channel 1 (bandwidth = 128) accepted message from 1
+
+Looking for Agent 2 tried to subscribe to 3 channels but only 2 allowed
+Looking for Agent 6 tried to subscribe to 3 channels but only 2 allowed
+Looking for Agent 8 tried to subscribe to 3 channels but only 2 allowed
+Looking for Agent 10 tried to subscribe to 3 channels but only 2 allowed
+Looking for Agent 12 tried to subscribe to 4 channels but only 3 allowed
+Looking for Agent 14 tried to subscribe to 4 channels but only 3 allowed
+Looking for Agent 16 tried to subscribe to 4 channels but only 3 allowed
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: []
+Heard   : []
+Expected: []
+Heard   : []
+Expected: []
+Heard   : []
+Expected: []
+Heard   : []
+Expected: []
+Heard   : []
+Expected: []
+Heard   : []
+Expected: []
+Heard   : []
+INFO root : Created channel: Radio channel 0 (bandwidth = 128)
+INFO root : Created channel: Radio channel 1 (bandwidth = 128)
+INFO root : Created channel: Radio channel 2 (bandwidth = 128)
+INFO root : Created channel: Radio channel 3 (bandwidth = 128)
+DEBUG root : ChannelCommunicationModel processing commands at time 1: [urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 1, Channels = [0, 1], urn:rescuecore2.standard:message:subscribe : Agent ID = 2, Time = 1, Channels = [0, 1, 2], urn:rescuecore2.standard:message:subscribe : Agent ID = 5, Time = 1, Channels = [0, 1], urn:rescuecore2.standard:message:subscribe : Agent ID = 6, Time = 1, Channels = [0, 1, 2], urn:rescuecore2.standard:message:subscribe : Agent ID = 7, Time = 1, Channels = [0, 1], urn:rescuecore2.standard:message:subscribe : Agent ID = 8, Time = 1, Channels = [0, 1, 2], urn:rescuecore2.standard:message:subscribe : Agent ID = 9, Time = 1, Channels = [0, 1], urn:rescuecore2.standard:message:subscribe : Agent ID = 10, Time = 1, Channels = [0, 1, 2], urn:rescuecore2.standard:message:subscribe : Agent ID = 11, Time = 1, Channels = [0, 1, 2], urn:rescuecore2.standard:message:subscribe : Agent ID = 12, Time = 1, Channels = [0, 1, 2, 3], urn:rescuecore2.standard:message:subscribe : Agent ID = 13, Time = 1, Channels = [0, 1, 2], urn:rescuecore2.standard:message:subscribe : Agent ID = 14, Time = 1, Channels = [0, 1, 2, 3], urn:rescuecore2.standard:message:subscribe : Agent ID = 15, Time = 1, Channels = [0, 1, 2], urn:rescuecore2.standard:message:subscribe : Agent ID = 16, Time = 1, Channels = [0, 1, 2, 3], urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 1, Channels = [0, 1]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 2, Time = 1, Channels = [0, 1, 2]
+WARN root : Agent 2 tried to subscribe to 3 channels but only 2 allowed
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 5, Time = 1, Channels = [0, 1]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 6, Time = 1, Channels = [0, 1, 2]
+WARN root : Agent 6 tried to subscribe to 3 channels but only 2 allowed
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 7, Time = 1, Channels = [0, 1]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 8, Time = 1, Channels = [0, 1, 2]
+WARN root : Agent 8 tried to subscribe to 3 channels but only 2 allowed
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 9, Time = 1, Channels = [0, 1]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 10, Time = 1, Channels = [0, 1, 2]
+WARN root : Agent 10 tried to subscribe to 3 channels but only 2 allowed
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 11, Time = 1, Channels = [0, 1, 2]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 12, Time = 1, Channels = [0, 1, 2, 3]
+WARN root : Agent 12 tried to subscribe to 4 channels but only 3 allowed
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 13, Time = 1, Channels = [0, 1, 2]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 14, Time = 1, Channels = [0, 1, 2, 3]
+WARN root : Agent 14 tried to subscribe to 4 channels but only 3 allowed
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 15, Time = 1, Channels = [0, 1, 2]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 16, Time = 1, Channels = [0, 1, 2, 3]
+WARN root : Agent 16 tried to subscribe to 4 channels but only 3 allowed
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Radio channel 0 (bandwidth = 128) accepted message from 5
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (1)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire brigade (5)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police force (7)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance team (9)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Fire station (11)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Police office (13)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Ambulance centre (15)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 5, Time = 1, Channel = 0, Message = 8 bytes of raw data
+
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 1, Message = 7 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 1, Message = 7 bytes of raw data]
+INFO root : Created channel: Radio channel 0 (bandwidth = 128)
+INFO root : Created channel: Radio channel 1 (bandwidth = 128)
+INFO root : Created channel: Radio channel 2 (bandwidth = 128)
+INFO root : Created channel: Radio channel 3 (bandwidth = 128)
+DEBUG root : ChannelCommunicationModel processing commands at time 1: [urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 1, Channels = [0], urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 7 bytes of raw data]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 1, Channels = [0]
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Radio channel 0 (bandwidth = 128) accepted message from 1
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (1)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 7 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 7 bytes of raw data through channel 1
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 7 bytes of raw data
+DEBUG root : Radio channel 1 (bandwidth = 128) accepted message from 1
+DEBUG root : ChannelCommunicationModel processing commands at time 2: [urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 2, Channels = [1], urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 1, Message = 7 bytes of raw data]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 2, Channels = [1]
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Radio channel 0 (bandwidth = 128) accepted message from 1
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 1, Message = 7 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 1, Message = 7 bytes of raw data through channel 1
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 1, Message = 7 bytes of raw data
+DEBUG root : Radio channel 1 (bandwidth = 128) accepted message from 1
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 1, Message = 7 bytes of raw data for agent Civilian (1)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 1, Message = 7 bytes of raw data
+
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Looking for Agent 1 tried to subscribe to non-existant channel 100
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 1, Message = 7 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 1, Message = 7 bytes of raw data]
+INFO root : Created channel: Radio channel 0 (bandwidth = 128)
+INFO root : Created channel: Radio channel 1 (bandwidth = 128)
+INFO root : Created channel: Radio channel 2 (bandwidth = 128)
+INFO root : Created channel: Radio channel 3 (bandwidth = 128)
+DEBUG root : ChannelCommunicationModel processing commands at time 1: [urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 1, Channels = [0], urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 7 bytes of raw data]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 1, Channels = [0]
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Radio channel 0 (bandwidth = 128) accepted message from 1
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (1)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 7 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 7 bytes of raw data through channel 1
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 1, Message = 7 bytes of raw data
+DEBUG root : Radio channel 1 (bandwidth = 128) accepted message from 1
+DEBUG root : ChannelCommunicationModel processing commands at time 2: [urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 2, Channels = [1, 100], urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data, urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 1, Message = 7 bytes of raw data]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 2, Channels = [1, 100]
+WARN root : Agent 1 tried to subscribe to non-existant channel 100
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Radio channel 0 (bandwidth = 128) accepted message from 1
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 1, Message = 7 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 1, Message = 7 bytes of raw data through channel 1
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 1, Message = 7 bytes of raw data
+DEBUG root : Radio channel 1 (bandwidth = 128) accepted message from 1
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 1, Message = 7 bytes of raw data for agent Civilian (1)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 2, Channel = 1, Message = 7 bytes of raw data
+
+Expected: [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Heard   : [urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+Looking for I don't know how to handle subscriptions for this entity: Road (17)
+INFO root : Created channel: Radio channel 0 (bandwidth = 128)
+INFO root : Created channel: Radio channel 1 (bandwidth = 128)
+INFO root : Created channel: Radio channel 2 (bandwidth = 128)
+INFO root : Created channel: Radio channel 3 (bandwidth = 128)
+DEBUG root : ChannelCommunicationModel processing commands at time 1: [urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 1, Channels = [0], urn:rescuecore2.standard:message:subscribe : Agent ID = 17, Time = 1, Channels = [0], urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 1, Time = 1, Channels = [0]
+DEBUG root : Processing subscribe message : urn:rescuecore2.standard:message:subscribe : Agent ID = 17, Time = 1, Channels = [0]
+WARN root : I don't know how to handle subscriptions for this entity: Road (17)
+DEBUG root : Processing speak: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Pushing urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data through channel 0
+DEBUG root : Input noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+DEBUG root : Radio channel 0 (bandwidth = 128) accepted message from 1
+DEBUG root : Adding message urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data for agent Civilian (1)
+DEBUG root : Output noise result: urn:rescuecore2.standard:message:speak : Agent ID = 1, Time = 1, Channel = 0, Message = 8 bytes of raw data
+
+]]></system-err>
+</testsuite>

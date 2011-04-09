@@ -1,0 +1,2227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Unit Test Results.</title>
+<style type="text/css">
+      body {
+        font:normal 68% verdana,arial,helvetica;
+        color:#000000;
+      }
+      table tr td, table tr th {
+          font-size: 68%;
+      }
+      table.details tr th{
+        font-weight: bold;
+        text-align:left;
+        background:#a6caf0;
+      }
+      table.details tr td{
+        background:#eeeee0;
+      }
+
+      p {
+        line-height:1.5em;
+        margin-top:0.5em; margin-bottom:1.0em;
+      }
+      h1 {
+        margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+      }
+      h2 {
+        margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+      }
+      h3 {
+        margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+      }
+      h4 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h5 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h6 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      .Error {
+        font-weight:bold; color:red;
+      }
+      .Failure {
+        font-weight:bold; color:purple;
+      }
+      .Properties {
+        text-align:right;
+      }
+      </style>
+<script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['rescuecore2.config.ConfigExceptionTest'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/guilherme/workspace/rescue-competition2010/build.xml';
+    
+        cur['ant.file.Robocup rescue simulation software'] = '/home/guilherme/workspace/rescue-competition2010/build.xml';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.6';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.name'] = 'Robocup rescue simulation software';
+    
+        cur['ant.version'] = 'Apache Ant version 1.7.1 compiled on September 8 2010';
+    
+        cur['basedir'] = '/home/guilherme/workspace/rescue-competition2010';
+    
+        cur['build.dir'] = '/home/guilherme/workspace/rescue-competition2010/build';
+    
+        cur['buildtools.dir'] = '/home/guilherme/workspace/rescue-competition2010/build-tools';
+    
+        cur['checkstyle.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/checkstyle-results';
+    
+        cur['checkstyle.version'] = 'all-5.0-beta2';
+    
+        cur['cobertura.coveragefile'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results/cobertura.ser';
+    
+        cur['cobertura.home'] = '/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2';
+    
+        cur['cobertura.instrument.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented';
+    
+        cur['cobertura.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results';
+    
+        cur['cobertura.output.format'] = 'html';
+    
+        cur['cobertura.version'] = '1.9.2';
+    
+        cur['debug'] = 'true';
+    
+        cur['editor.gmlmap'] = '';
+    
+        cur['edu.umd.cs.findbugs.FindBugs2.executeReturnCode.a752130a-70dc-4a3c-bac7-886057a4808c'] = '0';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['findbugs.home'] = '/home/guilherme/workspace/rescue-competition2010/build-tools/findbugs-1.3.8';
+    
+        cur['findbugs.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/findbugs-results';
+    
+        cur['findbugs.output.format'] = 'html';
+    
+        cur['findbugs.version'] = '1.3.8';
+    
+        cur['gis2.randomscenario.dir'] = '../maps/gml/legacy/VC';
+    
+        cur['jar.dir'] = '/home/guilherme/workspace/rescue-competition2010/jars';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/clear.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/collapse.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/gis2.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/handy.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/human.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/ignition.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/kernel.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/maps.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/misc.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/rescuecore2.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/sample.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/standard.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/traffic3.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/cobertura.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/asm-3.0.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/asm-tree-3.0.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/jakarta-oro-2.0.8.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/log4j-1.2.15.jar:/home/guilherme/workspace/rescue-competition2010/supplement:/home/guilherme/workspace/rescue-competition2010/jars/clear.jar:/home/guilherme/workspace/rescue-competition2010/jars/collapse.jar:/home/guilherme/workspace/rescue-competition2010/jars/gis2.jar:/home/guilherme/workspace/rescue-competition2010/jars/handy.jar:/home/guilherme/workspace/rescue-competition2010/jars/human.jar:/home/guilherme/workspace/rescue-competition2010/jars/ignition.jar:/home/guilherme/workspace/rescue-competition2010/jars/kernel.jar:/home/guilherme/workspace/rescue-competition2010/jars/maps.jar:/home/guilherme/workspace/rescue-competition2010/jars/misc.jar:/home/guilherme/workspace/rescue-competition2010/jars/rescuecore2.jar:/home/guilherme/workspace/rescue-competition2010/jars/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/jars/sample.jar:/home/guilherme/workspace/rescue-competition2010/jars/standard.jar:/home/guilherme/workspace/rescue-competition2010/jars/traffic3.jar:/home/guilherme/workspace/rescue-competition2010/lib/commons-logging-1.1.1.jar:/home/guilherme/workspace/rescue-competition2010/lib/dom4j.jar:/home/guilherme/workspace/rescue-competition2010/lib/jaxen-1.1.1.jar:/home/guilherme/workspace/rescue-competition2010/lib/jcommon-1.0.16.jar:/home/guilherme/workspace/rescue-competition2010/lib/jfreechart-1.0.13.jar:/home/guilherme/workspace/rescue-competition2010/lib/jscience-4.3.jar:/home/guilherme/workspace/rescue-competition2010/lib/jsi-1.0b2p1.jar:/home/guilherme/workspace/rescue-competition2010/lib/jts-1.11.jar:/home/guilherme/workspace/rescue-competition2010/lib/junit-4.5.jar:/home/guilherme/workspace/rescue-competition2010/lib/log4j-1.2.15.jar:/home/guilherme/workspace/rescue-competition2010/lib/rescuecore.jar:/home/guilherme/workspace/rescue-competition2010/lib/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/lib/trove-0.1.8.jar:/home/guilherme/workspace/rescue-competition2010/lib/uncommons-maths-1.2.jar:/home/guilherme/workspace/rescue-competition2010/lib/xml-0.0.6.jar:/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/test:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.7.1.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-6-openjdk/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/i386/server:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_20-b20';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vendor.url'] = 'http://java.sun.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://java.sun.com/cgi-bin/bugreport.cgi';
+    
+        cur['java.version'] = '1.6.0_20';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.version'] = '19.0-b09';
+    
+        cur['javac.flags'] = '-Xlint:unchecked,deprecation';
+    
+        cur['javadoc.dir'] = '/home/guilherme/workspace/rescue-competition2010/docs/javadoc';
+    
+        cur['junit.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/junit-results';
+    
+        cur['kernel.startup.args'] = '';
+    
+        cur['kernel.startup.config'] = '-c config/kernel-inline.cfg';
+    
+        cur['legacy2gml.gmlmap'] = '../maps/gml/legacy/Foligno/map.gml';
+    
+        cur['legacy2gml.legacymap'] = '../maps/legacy/Foligno/';
+    
+        cur['lib.dir'] = '/home/guilherme/workspace/rescue-competition2010/lib';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['log4j.configuration'] = 'log4j.test.properties';
+    
+        cur['modules'] = 'rescuecore2,kernel,standard,sample,handy,human,collapse,misc,resq-fire,ignition,maps,clear,traffic3,gis2';
+    
+        cur['modules.clear.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.collapse.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.dir'] = '/home/guilherme/workspace/rescue-competition2010/modules';
+    
+        cur['modules.gis2.depend'] = 'rescuecore2,standard,maps,kernel';
+    
+        cur['modules.human.depend'] = 'rescuecore2,standard,sample';
+    
+        cur['modules.ignition.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.kernel.depend'] = 'rescuecore2,handy';
+    
+        cur['modules.maps.depend'] = 'rescuecore2';
+    
+        cur['modules.misc.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.resq-fire.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.sample.depend'] = 'rescuecore2,standard,kernel';
+    
+        cur['modules.standard.depend'] = 'rescuecore2,kernel';
+    
+        cur['modules.traffic3.depend'] = 'rescuecore2,standard';
+    
+        cur['net.sourceforge.cobertura.datafile'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results/cobertura.ser';
+    
+        cur['os.arch'] = 'i386';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '2.6.32-24-generic';
+    
+        cur['osm2gml.gmlmap'] = '../maps/gml/southampton/map.gml';
+    
+        cur['osm2gml.osmmap'] = '../maps/osm/southampton.osm';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '32';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/i386';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.desktop'] = 'gnome';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['supplement.dir'] = '/home/guilherme/workspace/rescue-competition2010/supplement';
+    
+        cur['tests.basedir'] = '/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/test';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/guilherme/workspace/rescue-competition2010';
+    
+        cur['user.home'] = '/home/guilherme';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'guilherme';
+    
+        cur['user.timezone'] = '';
+    
+        cur['version'] = '1.0-prealpha';
+    
+    cur = TestCases['rescuecore2.config.ConfigTest'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/guilherme/workspace/rescue-competition2010/build.xml';
+    
+        cur['ant.file.Robocup rescue simulation software'] = '/home/guilherme/workspace/rescue-competition2010/build.xml';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.6';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.name'] = 'Robocup rescue simulation software';
+    
+        cur['ant.version'] = 'Apache Ant version 1.7.1 compiled on September 8 2010';
+    
+        cur['basedir'] = '/home/guilherme/workspace/rescue-competition2010';
+    
+        cur['build.dir'] = '/home/guilherme/workspace/rescue-competition2010/build';
+    
+        cur['buildtools.dir'] = '/home/guilherme/workspace/rescue-competition2010/build-tools';
+    
+        cur['checkstyle.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/checkstyle-results';
+    
+        cur['checkstyle.version'] = 'all-5.0-beta2';
+    
+        cur['cobertura.coveragefile'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results/cobertura.ser';
+    
+        cur['cobertura.home'] = '/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2';
+    
+        cur['cobertura.instrument.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented';
+    
+        cur['cobertura.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results';
+    
+        cur['cobertura.output.format'] = 'html';
+    
+        cur['cobertura.version'] = '1.9.2';
+    
+        cur['debug'] = 'true';
+    
+        cur['editor.gmlmap'] = '';
+    
+        cur['edu.umd.cs.findbugs.FindBugs2.executeReturnCode.a752130a-70dc-4a3c-bac7-886057a4808c'] = '0';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['findbugs.home'] = '/home/guilherme/workspace/rescue-competition2010/build-tools/findbugs-1.3.8';
+    
+        cur['findbugs.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/findbugs-results';
+    
+        cur['findbugs.output.format'] = 'html';
+    
+        cur['findbugs.version'] = '1.3.8';
+    
+        cur['gis2.randomscenario.dir'] = '../maps/gml/legacy/VC';
+    
+        cur['jar.dir'] = '/home/guilherme/workspace/rescue-competition2010/jars';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/clear.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/collapse.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/gis2.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/handy.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/human.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/ignition.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/kernel.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/maps.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/misc.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/rescuecore2.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/sample.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/standard.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/traffic3.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/cobertura.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/asm-3.0.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/asm-tree-3.0.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/jakarta-oro-2.0.8.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/log4j-1.2.15.jar:/home/guilherme/workspace/rescue-competition2010/supplement:/home/guilherme/workspace/rescue-competition2010/jars/clear.jar:/home/guilherme/workspace/rescue-competition2010/jars/collapse.jar:/home/guilherme/workspace/rescue-competition2010/jars/gis2.jar:/home/guilherme/workspace/rescue-competition2010/jars/handy.jar:/home/guilherme/workspace/rescue-competition2010/jars/human.jar:/home/guilherme/workspace/rescue-competition2010/jars/ignition.jar:/home/guilherme/workspace/rescue-competition2010/jars/kernel.jar:/home/guilherme/workspace/rescue-competition2010/jars/maps.jar:/home/guilherme/workspace/rescue-competition2010/jars/misc.jar:/home/guilherme/workspace/rescue-competition2010/jars/rescuecore2.jar:/home/guilherme/workspace/rescue-competition2010/jars/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/jars/sample.jar:/home/guilherme/workspace/rescue-competition2010/jars/standard.jar:/home/guilherme/workspace/rescue-competition2010/jars/traffic3.jar:/home/guilherme/workspace/rescue-competition2010/lib/commons-logging-1.1.1.jar:/home/guilherme/workspace/rescue-competition2010/lib/dom4j.jar:/home/guilherme/workspace/rescue-competition2010/lib/jaxen-1.1.1.jar:/home/guilherme/workspace/rescue-competition2010/lib/jcommon-1.0.16.jar:/home/guilherme/workspace/rescue-competition2010/lib/jfreechart-1.0.13.jar:/home/guilherme/workspace/rescue-competition2010/lib/jscience-4.3.jar:/home/guilherme/workspace/rescue-competition2010/lib/jsi-1.0b2p1.jar:/home/guilherme/workspace/rescue-competition2010/lib/jts-1.11.jar:/home/guilherme/workspace/rescue-competition2010/lib/junit-4.5.jar:/home/guilherme/workspace/rescue-competition2010/lib/log4j-1.2.15.jar:/home/guilherme/workspace/rescue-competition2010/lib/rescuecore.jar:/home/guilherme/workspace/rescue-competition2010/lib/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/lib/trove-0.1.8.jar:/home/guilherme/workspace/rescue-competition2010/lib/uncommons-maths-1.2.jar:/home/guilherme/workspace/rescue-competition2010/lib/xml-0.0.6.jar:/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/test:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.7.1.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-6-openjdk/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/i386/server:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_20-b20';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vendor.url'] = 'http://java.sun.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://java.sun.com/cgi-bin/bugreport.cgi';
+    
+        cur['java.version'] = '1.6.0_20';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.version'] = '19.0-b09';
+    
+        cur['javac.flags'] = '-Xlint:unchecked,deprecation';
+    
+        cur['javadoc.dir'] = '/home/guilherme/workspace/rescue-competition2010/docs/javadoc';
+    
+        cur['junit.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/junit-results';
+    
+        cur['kernel.startup.args'] = '';
+    
+        cur['kernel.startup.config'] = '-c config/kernel-inline.cfg';
+    
+        cur['legacy2gml.gmlmap'] = '../maps/gml/legacy/Foligno/map.gml';
+    
+        cur['legacy2gml.legacymap'] = '../maps/legacy/Foligno/';
+    
+        cur['lib.dir'] = '/home/guilherme/workspace/rescue-competition2010/lib';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['log4j.configuration'] = 'log4j.test.properties';
+    
+        cur['modules'] = 'rescuecore2,kernel,standard,sample,handy,human,collapse,misc,resq-fire,ignition,maps,clear,traffic3,gis2';
+    
+        cur['modules.clear.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.collapse.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.dir'] = '/home/guilherme/workspace/rescue-competition2010/modules';
+    
+        cur['modules.gis2.depend'] = 'rescuecore2,standard,maps,kernel';
+    
+        cur['modules.human.depend'] = 'rescuecore2,standard,sample';
+    
+        cur['modules.ignition.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.kernel.depend'] = 'rescuecore2,handy';
+    
+        cur['modules.maps.depend'] = 'rescuecore2';
+    
+        cur['modules.misc.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.resq-fire.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.sample.depend'] = 'rescuecore2,standard,kernel';
+    
+        cur['modules.standard.depend'] = 'rescuecore2,kernel';
+    
+        cur['modules.traffic3.depend'] = 'rescuecore2,standard';
+    
+        cur['net.sourceforge.cobertura.datafile'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results/cobertura.ser';
+    
+        cur['os.arch'] = 'i386';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '2.6.32-24-generic';
+    
+        cur['osm2gml.gmlmap'] = '../maps/gml/southampton/map.gml';
+    
+        cur['osm2gml.osmmap'] = '../maps/osm/southampton.osm';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '32';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/i386';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.desktop'] = 'gnome';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['supplement.dir'] = '/home/guilherme/workspace/rescue-competition2010/supplement';
+    
+        cur['tests.basedir'] = '/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/test';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/guilherme/workspace/rescue-competition2010';
+    
+        cur['user.home'] = '/home/guilherme';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'guilherme';
+    
+        cur['user.timezone'] = '';
+    
+        cur['version'] = '1.0-prealpha';
+    
+    cur = TestCases['rescuecore2.connection.ConnectionManagerTest'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/guilherme/workspace/rescue-competition2010/build.xml';
+    
+        cur['ant.file.Robocup rescue simulation software'] = '/home/guilherme/workspace/rescue-competition2010/build.xml';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.6';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.name'] = 'Robocup rescue simulation software';
+    
+        cur['ant.version'] = 'Apache Ant version 1.7.1 compiled on September 8 2010';
+    
+        cur['basedir'] = '/home/guilherme/workspace/rescue-competition2010';
+    
+        cur['build.dir'] = '/home/guilherme/workspace/rescue-competition2010/build';
+    
+        cur['buildtools.dir'] = '/home/guilherme/workspace/rescue-competition2010/build-tools';
+    
+        cur['checkstyle.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/checkstyle-results';
+    
+        cur['checkstyle.version'] = 'all-5.0-beta2';
+    
+        cur['cobertura.coveragefile'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results/cobertura.ser';
+    
+        cur['cobertura.home'] = '/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2';
+    
+        cur['cobertura.instrument.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented';
+    
+        cur['cobertura.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results';
+    
+        cur['cobertura.output.format'] = 'html';
+    
+        cur['cobertura.version'] = '1.9.2';
+    
+        cur['debug'] = 'true';
+    
+        cur['editor.gmlmap'] = '';
+    
+        cur['edu.umd.cs.findbugs.FindBugs2.executeReturnCode.a752130a-70dc-4a3c-bac7-886057a4808c'] = '0';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['findbugs.home'] = '/home/guilherme/workspace/rescue-competition2010/build-tools/findbugs-1.3.8';
+    
+        cur['findbugs.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/findbugs-results';
+    
+        cur['findbugs.output.format'] = 'html';
+    
+        cur['findbugs.version'] = '1.3.8';
+    
+        cur['gis2.randomscenario.dir'] = '../maps/gml/legacy/VC';
+    
+        cur['jar.dir'] = '/home/guilherme/workspace/rescue-competition2010/jars';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/clear.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/collapse.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/gis2.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/handy.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/human.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/ignition.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/kernel.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/maps.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/misc.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/rescuecore2.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/sample.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/standard.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/traffic3.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/cobertura.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/asm-3.0.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/asm-tree-3.0.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/jakarta-oro-2.0.8.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/log4j-1.2.15.jar:/home/guilherme/workspace/rescue-competition2010/supplement:/home/guilherme/workspace/rescue-competition2010/jars/clear.jar:/home/guilherme/workspace/rescue-competition2010/jars/collapse.jar:/home/guilherme/workspace/rescue-competition2010/jars/gis2.jar:/home/guilherme/workspace/rescue-competition2010/jars/handy.jar:/home/guilherme/workspace/rescue-competition2010/jars/human.jar:/home/guilherme/workspace/rescue-competition2010/jars/ignition.jar:/home/guilherme/workspace/rescue-competition2010/jars/kernel.jar:/home/guilherme/workspace/rescue-competition2010/jars/maps.jar:/home/guilherme/workspace/rescue-competition2010/jars/misc.jar:/home/guilherme/workspace/rescue-competition2010/jars/rescuecore2.jar:/home/guilherme/workspace/rescue-competition2010/jars/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/jars/sample.jar:/home/guilherme/workspace/rescue-competition2010/jars/standard.jar:/home/guilherme/workspace/rescue-competition2010/jars/traffic3.jar:/home/guilherme/workspace/rescue-competition2010/lib/commons-logging-1.1.1.jar:/home/guilherme/workspace/rescue-competition2010/lib/dom4j.jar:/home/guilherme/workspace/rescue-competition2010/lib/jaxen-1.1.1.jar:/home/guilherme/workspace/rescue-competition2010/lib/jcommon-1.0.16.jar:/home/guilherme/workspace/rescue-competition2010/lib/jfreechart-1.0.13.jar:/home/guilherme/workspace/rescue-competition2010/lib/jscience-4.3.jar:/home/guilherme/workspace/rescue-competition2010/lib/jsi-1.0b2p1.jar:/home/guilherme/workspace/rescue-competition2010/lib/jts-1.11.jar:/home/guilherme/workspace/rescue-competition2010/lib/junit-4.5.jar:/home/guilherme/workspace/rescue-competition2010/lib/log4j-1.2.15.jar:/home/guilherme/workspace/rescue-competition2010/lib/rescuecore.jar:/home/guilherme/workspace/rescue-competition2010/lib/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/lib/trove-0.1.8.jar:/home/guilherme/workspace/rescue-competition2010/lib/uncommons-maths-1.2.jar:/home/guilherme/workspace/rescue-competition2010/lib/xml-0.0.6.jar:/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/test:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.7.1.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-6-openjdk/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/i386/server:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_20-b20';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vendor.url'] = 'http://java.sun.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://java.sun.com/cgi-bin/bugreport.cgi';
+    
+        cur['java.version'] = '1.6.0_20';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.version'] = '19.0-b09';
+    
+        cur['javac.flags'] = '-Xlint:unchecked,deprecation';
+    
+        cur['javadoc.dir'] = '/home/guilherme/workspace/rescue-competition2010/docs/javadoc';
+    
+        cur['junit.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/junit-results';
+    
+        cur['kernel.startup.args'] = '';
+    
+        cur['kernel.startup.config'] = '-c config/kernel-inline.cfg';
+    
+        cur['legacy2gml.gmlmap'] = '../maps/gml/legacy/Foligno/map.gml';
+    
+        cur['legacy2gml.legacymap'] = '../maps/legacy/Foligno/';
+    
+        cur['lib.dir'] = '/home/guilherme/workspace/rescue-competition2010/lib';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['log4j.configuration'] = 'log4j.test.properties';
+    
+        cur['modules'] = 'rescuecore2,kernel,standard,sample,handy,human,collapse,misc,resq-fire,ignition,maps,clear,traffic3,gis2';
+    
+        cur['modules.clear.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.collapse.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.dir'] = '/home/guilherme/workspace/rescue-competition2010/modules';
+    
+        cur['modules.gis2.depend'] = 'rescuecore2,standard,maps,kernel';
+    
+        cur['modules.human.depend'] = 'rescuecore2,standard,sample';
+    
+        cur['modules.ignition.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.kernel.depend'] = 'rescuecore2,handy';
+    
+        cur['modules.maps.depend'] = 'rescuecore2';
+    
+        cur['modules.misc.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.resq-fire.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.sample.depend'] = 'rescuecore2,standard,kernel';
+    
+        cur['modules.standard.depend'] = 'rescuecore2,kernel';
+    
+        cur['modules.traffic3.depend'] = 'rescuecore2,standard';
+    
+        cur['net.sourceforge.cobertura.datafile'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results/cobertura.ser';
+    
+        cur['os.arch'] = 'i386';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '2.6.32-24-generic';
+    
+        cur['osm2gml.gmlmap'] = '../maps/gml/southampton/map.gml';
+    
+        cur['osm2gml.osmmap'] = '../maps/osm/southampton.osm';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '32';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/i386';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.desktop'] = 'gnome';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['supplement.dir'] = '/home/guilherme/workspace/rescue-competition2010/supplement';
+    
+        cur['tests.basedir'] = '/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/test';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/guilherme/workspace/rescue-competition2010';
+    
+        cur['user.home'] = '/home/guilherme';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'guilherme';
+    
+        cur['user.timezone'] = '';
+    
+        cur['version'] = '1.0-prealpha';
+    
+    cur = TestCases['rescuecore2.connection.StreamConnectionTest'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/guilherme/workspace/rescue-competition2010/build.xml';
+    
+        cur['ant.file.Robocup rescue simulation software'] = '/home/guilherme/workspace/rescue-competition2010/build.xml';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.6';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.name'] = 'Robocup rescue simulation software';
+    
+        cur['ant.version'] = 'Apache Ant version 1.7.1 compiled on September 8 2010';
+    
+        cur['basedir'] = '/home/guilherme/workspace/rescue-competition2010';
+    
+        cur['build.dir'] = '/home/guilherme/workspace/rescue-competition2010/build';
+    
+        cur['buildtools.dir'] = '/home/guilherme/workspace/rescue-competition2010/build-tools';
+    
+        cur['checkstyle.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/checkstyle-results';
+    
+        cur['checkstyle.version'] = 'all-5.0-beta2';
+    
+        cur['cobertura.coveragefile'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results/cobertura.ser';
+    
+        cur['cobertura.home'] = '/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2';
+    
+        cur['cobertura.instrument.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented';
+    
+        cur['cobertura.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results';
+    
+        cur['cobertura.output.format'] = 'html';
+    
+        cur['cobertura.version'] = '1.9.2';
+    
+        cur['debug'] = 'true';
+    
+        cur['editor.gmlmap'] = '';
+    
+        cur['edu.umd.cs.findbugs.FindBugs2.executeReturnCode.a752130a-70dc-4a3c-bac7-886057a4808c'] = '0';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['findbugs.home'] = '/home/guilherme/workspace/rescue-competition2010/build-tools/findbugs-1.3.8';
+    
+        cur['findbugs.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/findbugs-results';
+    
+        cur['findbugs.output.format'] = 'html';
+    
+        cur['findbugs.version'] = '1.3.8';
+    
+        cur['gis2.randomscenario.dir'] = '../maps/gml/legacy/VC';
+    
+        cur['jar.dir'] = '/home/guilherme/workspace/rescue-competition2010/jars';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/clear.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/collapse.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/gis2.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/handy.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/human.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/ignition.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/kernel.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/maps.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/misc.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/rescuecore2.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/sample.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/standard.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/traffic3.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/cobertura.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/asm-3.0.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/asm-tree-3.0.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/jakarta-oro-2.0.8.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/log4j-1.2.15.jar:/home/guilherme/workspace/rescue-competition2010/supplement:/home/guilherme/workspace/rescue-competition2010/jars/clear.jar:/home/guilherme/workspace/rescue-competition2010/jars/collapse.jar:/home/guilherme/workspace/rescue-competition2010/jars/gis2.jar:/home/guilherme/workspace/rescue-competition2010/jars/handy.jar:/home/guilherme/workspace/rescue-competition2010/jars/human.jar:/home/guilherme/workspace/rescue-competition2010/jars/ignition.jar:/home/guilherme/workspace/rescue-competition2010/jars/kernel.jar:/home/guilherme/workspace/rescue-competition2010/jars/maps.jar:/home/guilherme/workspace/rescue-competition2010/jars/misc.jar:/home/guilherme/workspace/rescue-competition2010/jars/rescuecore2.jar:/home/guilherme/workspace/rescue-competition2010/jars/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/jars/sample.jar:/home/guilherme/workspace/rescue-competition2010/jars/standard.jar:/home/guilherme/workspace/rescue-competition2010/jars/traffic3.jar:/home/guilherme/workspace/rescue-competition2010/lib/commons-logging-1.1.1.jar:/home/guilherme/workspace/rescue-competition2010/lib/dom4j.jar:/home/guilherme/workspace/rescue-competition2010/lib/jaxen-1.1.1.jar:/home/guilherme/workspace/rescue-competition2010/lib/jcommon-1.0.16.jar:/home/guilherme/workspace/rescue-competition2010/lib/jfreechart-1.0.13.jar:/home/guilherme/workspace/rescue-competition2010/lib/jscience-4.3.jar:/home/guilherme/workspace/rescue-competition2010/lib/jsi-1.0b2p1.jar:/home/guilherme/workspace/rescue-competition2010/lib/jts-1.11.jar:/home/guilherme/workspace/rescue-competition2010/lib/junit-4.5.jar:/home/guilherme/workspace/rescue-competition2010/lib/log4j-1.2.15.jar:/home/guilherme/workspace/rescue-competition2010/lib/rescuecore.jar:/home/guilherme/workspace/rescue-competition2010/lib/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/lib/trove-0.1.8.jar:/home/guilherme/workspace/rescue-competition2010/lib/uncommons-maths-1.2.jar:/home/guilherme/workspace/rescue-competition2010/lib/xml-0.0.6.jar:/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/test:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.7.1.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-6-openjdk/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/i386/server:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_20-b20';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vendor.url'] = 'http://java.sun.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://java.sun.com/cgi-bin/bugreport.cgi';
+    
+        cur['java.version'] = '1.6.0_20';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.version'] = '19.0-b09';
+    
+        cur['javac.flags'] = '-Xlint:unchecked,deprecation';
+    
+        cur['javadoc.dir'] = '/home/guilherme/workspace/rescue-competition2010/docs/javadoc';
+    
+        cur['junit.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/junit-results';
+    
+        cur['kernel.startup.args'] = '';
+    
+        cur['kernel.startup.config'] = '-c config/kernel-inline.cfg';
+    
+        cur['legacy2gml.gmlmap'] = '../maps/gml/legacy/Foligno/map.gml';
+    
+        cur['legacy2gml.legacymap'] = '../maps/legacy/Foligno/';
+    
+        cur['lib.dir'] = '/home/guilherme/workspace/rescue-competition2010/lib';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['log4j.configuration'] = 'log4j.test.properties';
+    
+        cur['modules'] = 'rescuecore2,kernel,standard,sample,handy,human,collapse,misc,resq-fire,ignition,maps,clear,traffic3,gis2';
+    
+        cur['modules.clear.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.collapse.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.dir'] = '/home/guilherme/workspace/rescue-competition2010/modules';
+    
+        cur['modules.gis2.depend'] = 'rescuecore2,standard,maps,kernel';
+    
+        cur['modules.human.depend'] = 'rescuecore2,standard,sample';
+    
+        cur['modules.ignition.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.kernel.depend'] = 'rescuecore2,handy';
+    
+        cur['modules.maps.depend'] = 'rescuecore2';
+    
+        cur['modules.misc.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.resq-fire.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.sample.depend'] = 'rescuecore2,standard,kernel';
+    
+        cur['modules.standard.depend'] = 'rescuecore2,kernel';
+    
+        cur['modules.traffic3.depend'] = 'rescuecore2,standard';
+    
+        cur['net.sourceforge.cobertura.datafile'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results/cobertura.ser';
+    
+        cur['os.arch'] = 'i386';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '2.6.32-24-generic';
+    
+        cur['osm2gml.gmlmap'] = '../maps/gml/southampton/map.gml';
+    
+        cur['osm2gml.osmmap'] = '../maps/osm/southampton.osm';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '32';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/i386';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.desktop'] = 'gnome';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['supplement.dir'] = '/home/guilherme/workspace/rescue-competition2010/supplement';
+    
+        cur['tests.basedir'] = '/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/test';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/guilherme/workspace/rescue-competition2010';
+    
+        cur['user.home'] = '/home/guilherme';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'guilherme';
+    
+        cur['user.timezone'] = '';
+    
+        cur['version'] = '1.0-prealpha';
+    
+    cur = TestCases['rescuecore2.connection.TCPConnectionTest'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/guilherme/workspace/rescue-competition2010/build.xml';
+    
+        cur['ant.file.Robocup rescue simulation software'] = '/home/guilherme/workspace/rescue-competition2010/build.xml';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.6';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.name'] = 'Robocup rescue simulation software';
+    
+        cur['ant.version'] = 'Apache Ant version 1.7.1 compiled on September 8 2010';
+    
+        cur['basedir'] = '/home/guilherme/workspace/rescue-competition2010';
+    
+        cur['build.dir'] = '/home/guilherme/workspace/rescue-competition2010/build';
+    
+        cur['buildtools.dir'] = '/home/guilherme/workspace/rescue-competition2010/build-tools';
+    
+        cur['checkstyle.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/checkstyle-results';
+    
+        cur['checkstyle.version'] = 'all-5.0-beta2';
+    
+        cur['cobertura.coveragefile'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results/cobertura.ser';
+    
+        cur['cobertura.home'] = '/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2';
+    
+        cur['cobertura.instrument.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented';
+    
+        cur['cobertura.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results';
+    
+        cur['cobertura.output.format'] = 'html';
+    
+        cur['cobertura.version'] = '1.9.2';
+    
+        cur['debug'] = 'true';
+    
+        cur['editor.gmlmap'] = '';
+    
+        cur['edu.umd.cs.findbugs.FindBugs2.executeReturnCode.a752130a-70dc-4a3c-bac7-886057a4808c'] = '0';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['findbugs.home'] = '/home/guilherme/workspace/rescue-competition2010/build-tools/findbugs-1.3.8';
+    
+        cur['findbugs.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/findbugs-results';
+    
+        cur['findbugs.output.format'] = 'html';
+    
+        cur['findbugs.version'] = '1.3.8';
+    
+        cur['gis2.randomscenario.dir'] = '../maps/gml/legacy/VC';
+    
+        cur['jar.dir'] = '/home/guilherme/workspace/rescue-competition2010/jars';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/clear.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/collapse.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/gis2.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/handy.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/human.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/ignition.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/kernel.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/maps.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/misc.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/rescuecore2.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/sample.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/standard.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/traffic3.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/cobertura.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/asm-3.0.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/asm-tree-3.0.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/jakarta-oro-2.0.8.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/log4j-1.2.15.jar:/home/guilherme/workspace/rescue-competition2010/supplement:/home/guilherme/workspace/rescue-competition2010/jars/clear.jar:/home/guilherme/workspace/rescue-competition2010/jars/collapse.jar:/home/guilherme/workspace/rescue-competition2010/jars/gis2.jar:/home/guilherme/workspace/rescue-competition2010/jars/handy.jar:/home/guilherme/workspace/rescue-competition2010/jars/human.jar:/home/guilherme/workspace/rescue-competition2010/jars/ignition.jar:/home/guilherme/workspace/rescue-competition2010/jars/kernel.jar:/home/guilherme/workspace/rescue-competition2010/jars/maps.jar:/home/guilherme/workspace/rescue-competition2010/jars/misc.jar:/home/guilherme/workspace/rescue-competition2010/jars/rescuecore2.jar:/home/guilherme/workspace/rescue-competition2010/jars/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/jars/sample.jar:/home/guilherme/workspace/rescue-competition2010/jars/standard.jar:/home/guilherme/workspace/rescue-competition2010/jars/traffic3.jar:/home/guilherme/workspace/rescue-competition2010/lib/commons-logging-1.1.1.jar:/home/guilherme/workspace/rescue-competition2010/lib/dom4j.jar:/home/guilherme/workspace/rescue-competition2010/lib/jaxen-1.1.1.jar:/home/guilherme/workspace/rescue-competition2010/lib/jcommon-1.0.16.jar:/home/guilherme/workspace/rescue-competition2010/lib/jfreechart-1.0.13.jar:/home/guilherme/workspace/rescue-competition2010/lib/jscience-4.3.jar:/home/guilherme/workspace/rescue-competition2010/lib/jsi-1.0b2p1.jar:/home/guilherme/workspace/rescue-competition2010/lib/jts-1.11.jar:/home/guilherme/workspace/rescue-competition2010/lib/junit-4.5.jar:/home/guilherme/workspace/rescue-competition2010/lib/log4j-1.2.15.jar:/home/guilherme/workspace/rescue-competition2010/lib/rescuecore.jar:/home/guilherme/workspace/rescue-competition2010/lib/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/lib/trove-0.1.8.jar:/home/guilherme/workspace/rescue-competition2010/lib/uncommons-maths-1.2.jar:/home/guilherme/workspace/rescue-competition2010/lib/xml-0.0.6.jar:/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/test:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.7.1.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-6-openjdk/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/i386/server:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_20-b20';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vendor.url'] = 'http://java.sun.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://java.sun.com/cgi-bin/bugreport.cgi';
+    
+        cur['java.version'] = '1.6.0_20';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.version'] = '19.0-b09';
+    
+        cur['javac.flags'] = '-Xlint:unchecked,deprecation';
+    
+        cur['javadoc.dir'] = '/home/guilherme/workspace/rescue-competition2010/docs/javadoc';
+    
+        cur['junit.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/junit-results';
+    
+        cur['kernel.startup.args'] = '';
+    
+        cur['kernel.startup.config'] = '-c config/kernel-inline.cfg';
+    
+        cur['legacy2gml.gmlmap'] = '../maps/gml/legacy/Foligno/map.gml';
+    
+        cur['legacy2gml.legacymap'] = '../maps/legacy/Foligno/';
+    
+        cur['lib.dir'] = '/home/guilherme/workspace/rescue-competition2010/lib';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['log4j.configuration'] = 'log4j.test.properties';
+    
+        cur['modules'] = 'rescuecore2,kernel,standard,sample,handy,human,collapse,misc,resq-fire,ignition,maps,clear,traffic3,gis2';
+    
+        cur['modules.clear.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.collapse.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.dir'] = '/home/guilherme/workspace/rescue-competition2010/modules';
+    
+        cur['modules.gis2.depend'] = 'rescuecore2,standard,maps,kernel';
+    
+        cur['modules.human.depend'] = 'rescuecore2,standard,sample';
+    
+        cur['modules.ignition.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.kernel.depend'] = 'rescuecore2,handy';
+    
+        cur['modules.maps.depend'] = 'rescuecore2';
+    
+        cur['modules.misc.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.resq-fire.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.sample.depend'] = 'rescuecore2,standard,kernel';
+    
+        cur['modules.standard.depend'] = 'rescuecore2,kernel';
+    
+        cur['modules.traffic3.depend'] = 'rescuecore2,standard';
+    
+        cur['net.sourceforge.cobertura.datafile'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results/cobertura.ser';
+    
+        cur['os.arch'] = 'i386';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '2.6.32-24-generic';
+    
+        cur['osm2gml.gmlmap'] = '../maps/gml/southampton/map.gml';
+    
+        cur['osm2gml.osmmap'] = '../maps/osm/southampton.osm';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '32';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/i386';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.desktop'] = 'gnome';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['supplement.dir'] = '/home/guilherme/workspace/rescue-competition2010/supplement';
+    
+        cur['tests.basedir'] = '/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/test';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/guilherme/workspace/rescue-competition2010';
+    
+        cur['user.home'] = '/home/guilherme';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'guilherme';
+    
+        cur['user.timezone'] = '';
+    
+        cur['version'] = '1.0-prealpha';
+    
+    cur = TestCases['rescuecore2.misc.geometry.spatialindex.BBTreeTest'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/guilherme/workspace/rescue-competition2010/build.xml';
+    
+        cur['ant.file.Robocup rescue simulation software'] = '/home/guilherme/workspace/rescue-competition2010/build.xml';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.6';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.name'] = 'Robocup rescue simulation software';
+    
+        cur['ant.version'] = 'Apache Ant version 1.7.1 compiled on September 8 2010';
+    
+        cur['basedir'] = '/home/guilherme/workspace/rescue-competition2010';
+    
+        cur['build.dir'] = '/home/guilherme/workspace/rescue-competition2010/build';
+    
+        cur['buildtools.dir'] = '/home/guilherme/workspace/rescue-competition2010/build-tools';
+    
+        cur['checkstyle.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/checkstyle-results';
+    
+        cur['checkstyle.version'] = 'all-5.0-beta2';
+    
+        cur['cobertura.coveragefile'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results/cobertura.ser';
+    
+        cur['cobertura.home'] = '/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2';
+    
+        cur['cobertura.instrument.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented';
+    
+        cur['cobertura.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results';
+    
+        cur['cobertura.output.format'] = 'html';
+    
+        cur['cobertura.version'] = '1.9.2';
+    
+        cur['debug'] = 'true';
+    
+        cur['editor.gmlmap'] = '';
+    
+        cur['edu.umd.cs.findbugs.FindBugs2.executeReturnCode.a752130a-70dc-4a3c-bac7-886057a4808c'] = '0';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['findbugs.home'] = '/home/guilherme/workspace/rescue-competition2010/build-tools/findbugs-1.3.8';
+    
+        cur['findbugs.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/findbugs-results';
+    
+        cur['findbugs.output.format'] = 'html';
+    
+        cur['findbugs.version'] = '1.3.8';
+    
+        cur['gis2.randomscenario.dir'] = '../maps/gml/legacy/VC';
+    
+        cur['jar.dir'] = '/home/guilherme/workspace/rescue-competition2010/jars';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/clear.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/collapse.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/gis2.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/handy.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/human.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/ignition.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/kernel.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/maps.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/misc.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/rescuecore2.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/sample.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/standard.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/traffic3.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/cobertura.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/asm-3.0.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/asm-tree-3.0.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/jakarta-oro-2.0.8.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/log4j-1.2.15.jar:/home/guilherme/workspace/rescue-competition2010/supplement:/home/guilherme/workspace/rescue-competition2010/jars/clear.jar:/home/guilherme/workspace/rescue-competition2010/jars/collapse.jar:/home/guilherme/workspace/rescue-competition2010/jars/gis2.jar:/home/guilherme/workspace/rescue-competition2010/jars/handy.jar:/home/guilherme/workspace/rescue-competition2010/jars/human.jar:/home/guilherme/workspace/rescue-competition2010/jars/ignition.jar:/home/guilherme/workspace/rescue-competition2010/jars/kernel.jar:/home/guilherme/workspace/rescue-competition2010/jars/maps.jar:/home/guilherme/workspace/rescue-competition2010/jars/misc.jar:/home/guilherme/workspace/rescue-competition2010/jars/rescuecore2.jar:/home/guilherme/workspace/rescue-competition2010/jars/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/jars/sample.jar:/home/guilherme/workspace/rescue-competition2010/jars/standard.jar:/home/guilherme/workspace/rescue-competition2010/jars/traffic3.jar:/home/guilherme/workspace/rescue-competition2010/lib/commons-logging-1.1.1.jar:/home/guilherme/workspace/rescue-competition2010/lib/dom4j.jar:/home/guilherme/workspace/rescue-competition2010/lib/jaxen-1.1.1.jar:/home/guilherme/workspace/rescue-competition2010/lib/jcommon-1.0.16.jar:/home/guilherme/workspace/rescue-competition2010/lib/jfreechart-1.0.13.jar:/home/guilherme/workspace/rescue-competition2010/lib/jscience-4.3.jar:/home/guilherme/workspace/rescue-competition2010/lib/jsi-1.0b2p1.jar:/home/guilherme/workspace/rescue-competition2010/lib/jts-1.11.jar:/home/guilherme/workspace/rescue-competition2010/lib/junit-4.5.jar:/home/guilherme/workspace/rescue-competition2010/lib/log4j-1.2.15.jar:/home/guilherme/workspace/rescue-competition2010/lib/rescuecore.jar:/home/guilherme/workspace/rescue-competition2010/lib/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/lib/trove-0.1.8.jar:/home/guilherme/workspace/rescue-competition2010/lib/uncommons-maths-1.2.jar:/home/guilherme/workspace/rescue-competition2010/lib/xml-0.0.6.jar:/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/test:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.7.1.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-6-openjdk/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/i386/server:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_20-b20';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vendor.url'] = 'http://java.sun.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://java.sun.com/cgi-bin/bugreport.cgi';
+    
+        cur['java.version'] = '1.6.0_20';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.version'] = '19.0-b09';
+    
+        cur['javac.flags'] = '-Xlint:unchecked,deprecation';
+    
+        cur['javadoc.dir'] = '/home/guilherme/workspace/rescue-competition2010/docs/javadoc';
+    
+        cur['junit.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/junit-results';
+    
+        cur['kernel.startup.args'] = '';
+    
+        cur['kernel.startup.config'] = '-c config/kernel-inline.cfg';
+    
+        cur['legacy2gml.gmlmap'] = '../maps/gml/legacy/Foligno/map.gml';
+    
+        cur['legacy2gml.legacymap'] = '../maps/legacy/Foligno/';
+    
+        cur['lib.dir'] = '/home/guilherme/workspace/rescue-competition2010/lib';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['log4j.configuration'] = 'log4j.test.properties';
+    
+        cur['modules'] = 'rescuecore2,kernel,standard,sample,handy,human,collapse,misc,resq-fire,ignition,maps,clear,traffic3,gis2';
+    
+        cur['modules.clear.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.collapse.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.dir'] = '/home/guilherme/workspace/rescue-competition2010/modules';
+    
+        cur['modules.gis2.depend'] = 'rescuecore2,standard,maps,kernel';
+    
+        cur['modules.human.depend'] = 'rescuecore2,standard,sample';
+    
+        cur['modules.ignition.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.kernel.depend'] = 'rescuecore2,handy';
+    
+        cur['modules.maps.depend'] = 'rescuecore2';
+    
+        cur['modules.misc.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.resq-fire.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.sample.depend'] = 'rescuecore2,standard,kernel';
+    
+        cur['modules.standard.depend'] = 'rescuecore2,kernel';
+    
+        cur['modules.traffic3.depend'] = 'rescuecore2,standard';
+    
+        cur['net.sourceforge.cobertura.datafile'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results/cobertura.ser';
+    
+        cur['os.arch'] = 'i386';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '2.6.32-24-generic';
+    
+        cur['osm2gml.gmlmap'] = '../maps/gml/southampton/map.gml';
+    
+        cur['osm2gml.osmmap'] = '../maps/osm/southampton.osm';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '32';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/i386';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.desktop'] = 'gnome';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['supplement.dir'] = '/home/guilherme/workspace/rescue-competition2010/supplement';
+    
+        cur['tests.basedir'] = '/home/guilherme/workspace/rescue-competition2010/modules/rescuecore2/test';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/guilherme/workspace/rescue-competition2010';
+    
+        cur['user.home'] = '/home/guilherme';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'guilherme';
+    
+        cur['user.timezone'] = '';
+    
+        cur['version'] = '1.0-prealpha';
+    
+    cur = TestCases['rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/guilherme/workspace/rescue-competition2010/build.xml';
+    
+        cur['ant.file.Robocup rescue simulation software'] = '/home/guilherme/workspace/rescue-competition2010/build.xml';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.6';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.name'] = 'Robocup rescue simulation software';
+    
+        cur['ant.version'] = 'Apache Ant version 1.7.1 compiled on September 8 2010';
+    
+        cur['basedir'] = '/home/guilherme/workspace/rescue-competition2010';
+    
+        cur['build.dir'] = '/home/guilherme/workspace/rescue-competition2010/build';
+    
+        cur['buildtools.dir'] = '/home/guilherme/workspace/rescue-competition2010/build-tools';
+    
+        cur['checkstyle.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/checkstyle-results';
+    
+        cur['checkstyle.version'] = 'all-5.0-beta2';
+    
+        cur['cobertura.coveragefile'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results/cobertura.ser';
+    
+        cur['cobertura.home'] = '/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2';
+    
+        cur['cobertura.instrument.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented';
+    
+        cur['cobertura.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results';
+    
+        cur['cobertura.output.format'] = 'html';
+    
+        cur['cobertura.version'] = '1.9.2';
+    
+        cur['debug'] = 'true';
+    
+        cur['editor.gmlmap'] = '';
+    
+        cur['edu.umd.cs.findbugs.FindBugs2.executeReturnCode.a752130a-70dc-4a3c-bac7-886057a4808c'] = '0';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['findbugs.home'] = '/home/guilherme/workspace/rescue-competition2010/build-tools/findbugs-1.3.8';
+    
+        cur['findbugs.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/findbugs-results';
+    
+        cur['findbugs.output.format'] = 'html';
+    
+        cur['findbugs.version'] = '1.3.8';
+    
+        cur['gis2.randomscenario.dir'] = '../maps/gml/legacy/VC';
+    
+        cur['jar.dir'] = '/home/guilherme/workspace/rescue-competition2010/jars';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/clear.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/collapse.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/gis2.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/handy.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/human.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/ignition.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/kernel.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/maps.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/misc.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/rescuecore2.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/sample.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/standard.jar:/home/guilherme/workspace/rescue-competition2010/build/jars-instrumented/traffic3.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/cobertura.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/asm-3.0.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/asm-tree-3.0.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/jakarta-oro-2.0.8.jar:/home/guilherme/workspace/rescue-competition2010/build-tools/cobertura-1.9.2/lib/log4j-1.2.15.jar:/home/guilherme/workspace/rescue-competition2010/supplement:/home/guilherme/workspace/rescue-competition2010/jars/clear.jar:/home/guilherme/workspace/rescue-competition2010/jars/collapse.jar:/home/guilherme/workspace/rescue-competition2010/jars/gis2.jar:/home/guilherme/workspace/rescue-competition2010/jars/handy.jar:/home/guilherme/workspace/rescue-competition2010/jars/human.jar:/home/guilherme/workspace/rescue-competition2010/jars/ignition.jar:/home/guilherme/workspace/rescue-competition2010/jars/kernel.jar:/home/guilherme/workspace/rescue-competition2010/jars/maps.jar:/home/guilherme/workspace/rescue-competition2010/jars/misc.jar:/home/guilherme/workspace/rescue-competition2010/jars/rescuecore2.jar:/home/guilherme/workspace/rescue-competition2010/jars/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/jars/sample.jar:/home/guilherme/workspace/rescue-competition2010/jars/standard.jar:/home/guilherme/workspace/rescue-competition2010/jars/traffic3.jar:/home/guilherme/workspace/rescue-competition2010/lib/commons-logging-1.1.1.jar:/home/guilherme/workspace/rescue-competition2010/lib/dom4j.jar:/home/guilherme/workspace/rescue-competition2010/lib/jaxen-1.1.1.jar:/home/guilherme/workspace/rescue-competition2010/lib/jcommon-1.0.16.jar:/home/guilherme/workspace/rescue-competition2010/lib/jfreechart-1.0.13.jar:/home/guilherme/workspace/rescue-competition2010/lib/jscience-4.3.jar:/home/guilherme/workspace/rescue-competition2010/lib/jsi-1.0b2p1.jar:/home/guilherme/workspace/rescue-competition2010/lib/jts-1.11.jar:/home/guilherme/workspace/rescue-competition2010/lib/junit-4.5.jar:/home/guilherme/workspace/rescue-competition2010/lib/log4j-1.2.15.jar:/home/guilherme/workspace/rescue-competition2010/lib/rescuecore.jar:/home/guilherme/workspace/rescue-competition2010/lib/resq-fire.jar:/home/guilherme/workspace/rescue-competition2010/lib/trove-0.1.8.jar:/home/guilherme/workspace/rescue-competition2010/lib/uncommons-maths-1.2.jar:/home/guilherme/workspace/rescue-competition2010/lib/xml-0.0.6.jar:/home/guilherme/workspace/rescue-competition2010/modules/standard/test:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.7.1.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-6-openjdk/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/i386/server:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_20-b20';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vendor.url'] = 'http://java.sun.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://java.sun.com/cgi-bin/bugreport.cgi';
+    
+        cur['java.version'] = '1.6.0_20';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.version'] = '19.0-b09';
+    
+        cur['javac.flags'] = '-Xlint:unchecked,deprecation';
+    
+        cur['javadoc.dir'] = '/home/guilherme/workspace/rescue-competition2010/docs/javadoc';
+    
+        cur['junit.output.dir'] = '/home/guilherme/workspace/rescue-competition2010/build/junit-results';
+    
+        cur['kernel.startup.args'] = '';
+    
+        cur['kernel.startup.config'] = '-c config/kernel-inline.cfg';
+    
+        cur['legacy2gml.gmlmap'] = '../maps/gml/legacy/Foligno/map.gml';
+    
+        cur['legacy2gml.legacymap'] = '../maps/legacy/Foligno/';
+    
+        cur['lib.dir'] = '/home/guilherme/workspace/rescue-competition2010/lib';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['log4j.configuration'] = 'log4j.test.properties';
+    
+        cur['modules'] = 'rescuecore2,kernel,standard,sample,handy,human,collapse,misc,resq-fire,ignition,maps,clear,traffic3,gis2';
+    
+        cur['modules.clear.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.collapse.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.dir'] = '/home/guilherme/workspace/rescue-competition2010/modules';
+    
+        cur['modules.gis2.depend'] = 'rescuecore2,standard,maps,kernel';
+    
+        cur['modules.human.depend'] = 'rescuecore2,standard,sample';
+    
+        cur['modules.ignition.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.kernel.depend'] = 'rescuecore2,handy';
+    
+        cur['modules.maps.depend'] = 'rescuecore2';
+    
+        cur['modules.misc.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.resq-fire.depend'] = 'rescuecore2,standard';
+    
+        cur['modules.sample.depend'] = 'rescuecore2,standard,kernel';
+    
+        cur['modules.standard.depend'] = 'rescuecore2,kernel';
+    
+        cur['modules.traffic3.depend'] = 'rescuecore2,standard';
+    
+        cur['net.sourceforge.cobertura.datafile'] = '/home/guilherme/workspace/rescue-competition2010/build/cobertura-results/cobertura.ser';
+    
+        cur['os.arch'] = 'i386';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '2.6.32-24-generic';
+    
+        cur['osm2gml.gmlmap'] = '../maps/gml/southampton/map.gml';
+    
+        cur['osm2gml.osmmap'] = '../maps/osm/southampton.osm';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '32';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-6-openjdk/jre/lib/i386';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.desktop'] = 'gnome';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['supplement.dir'] = '/home/guilherme/workspace/rescue-competition2010/supplement';
+    
+        cur['tests.basedir'] = '/home/guilherme/workspace/rescue-competition2010/modules/standard/test';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/guilherme/workspace/rescue-competition2010';
+    
+        cur['user.home'] = '/home/guilherme';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'guilherme';
+    
+        cur['user.timezone'] = '';
+    
+        cur['version'] = '1.0-prealpha';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style>")
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+</head>
+<body>
+<a name="top"></a>
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org">JUnit</a> and <a href="http://ant.apache.org/ant">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>Summary</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Tests</th><th>Failures</th><th>Errors</th><th>Success rate</th><th>Time</th>
+</tr>
+<tr valign="top" class="">
+<td>142</td><td>0</td><td>0</td><td>100.00%</td><td>51.034</td>
+</tr>
+</table>
+<table border="0" width="95%">
+<tr>
+<td style="text-align: justify;">
+        Note: <i>failures</i> are anticipated and checked for with assertions while <i>errors</i> are unanticipated.
+        </td>
+</tr>
+</table>
+<hr size="1" width="95%" align="left">
+<h2>Packages</h2>
+        Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#rescuecore2.config">rescuecore2.config</a></td><td>73</td><td>0</td><td>0</td><td>0.386</td><td>2011-04-02T19:31:36</td><td>atari</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#rescuecore2.connection">rescuecore2.connection</a></td><td>46</td><td>0</td><td>0</td><td>32.645</td><td>2011-04-02T19:31:41</td><td>atari</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#rescuecore2.misc.geometry.spatialindex">rescuecore2.misc.geometry.spatialindex</a></td><td>6</td><td>0</td><td>0</td><td>17.703</td><td>2011-04-02T19:32:21</td><td>atari</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#rescuecore2.standard.kernel.comms">rescuecore2.standard.kernel.comms</a></td><td>17</td><td>0</td><td>0</td><td>0.300</td><td>2011-04-02T19:32:41</td><td>atari</td>
+</tr>
+</table>
+<hr size="1" width="95%" align="left">
+<a name="rescuecore2.config"></a>
+<h3>Package rescuecore2.config</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#ConfigExceptionTest">ConfigExceptionTest</a></td><td>8</td><td>0</td><td>0</td><td>0.151</td><td>2011-04-02T19:31:36</td><td>atari</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#ConfigTest">ConfigTest</a></td><td>65</td><td>0</td><td>0</td><td>0.235</td><td>2011-04-02T19:31:38</td><td>atari</td>
+</tr>
+</table>
+<a href="#top">Back to top</a>
+<p></p>
+<p></p>
+<a name="rescuecore2.connection"></a>
+<h3>Package rescuecore2.connection</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#ConnectionManagerTest">ConnectionManagerTest</a></td><td>5</td><td>0</td><td>0</td><td>7.171</td><td>2011-04-02T19:31:41</td><td>atari</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#StreamConnectionTest">StreamConnectionTest</a></td><td>24</td><td>0</td><td>0</td><td>15.254</td><td>2011-04-02T19:31:50</td><td>atari</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#TCPConnectionTest">TCPConnectionTest</a></td><td>17</td><td>0</td><td>0</td><td>10.220</td><td>2011-04-02T19:32:08</td><td>atari</td>
+</tr>
+</table>
+<a href="#top">Back to top</a>
+<p></p>
+<p></p>
+<a name="rescuecore2.misc.geometry.spatialindex"></a>
+<h3>Package rescuecore2.misc.geometry.spatialindex</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#BBTreeTest">BBTreeTest</a></td><td>6</td><td>0</td><td>0</td><td>17.703</td><td>2011-04-02T19:32:21</td><td>atari</td>
+</tr>
+</table>
+<a href="#top">Back to top</a>
+<p></p>
+<p></p>
+<a name="rescuecore2.standard.kernel.comms"></a>
+<h3>Package rescuecore2.standard.kernel.comms</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#ChannelCommunicationModelTest">ChannelCommunicationModelTest</a></td><td>17</td><td>0</td><td>0</td><td>0.300</td><td>2011-04-02T19:32:41</td><td>atari</td>
+</tr>
+</table>
+<a href="#top">Back to top</a>
+<p></p>
+<p></p>
+<hr size="1" width="95%" align="left">
+<a name="BBTreeTest"></a>
+<h3>TestCase BBTreeTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testRetrieveAllPoints</td><td>Success</td><td></td><td>1.084</td>
+</tr>
+<tr valign="top" class="">
+<td>testRetrieveAllLines</td><td>Success</td><td></td><td>4.544</td>
+</tr>
+<tr valign="top" class="">
+<td>testRetrieveAllPointsAndLines</td><td>Success</td><td></td><td>3.093</td>
+</tr>
+<tr valign="top" class="">
+<td>testRetrieveSomePoints</td><td>Success</td><td></td><td>0.912</td>
+</tr>
+<tr valign="top" class="">
+<td>testRetrieveSomeLines</td><td>Success</td><td></td><td>2.951</td>
+</tr>
+<tr valign="top" class="">
+<td>testRetrieveSomePointsAndLines</td><td>Success</td><td></td><td>5.066</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('rescuecore2.misc.geometry.spatialindex.BBTreeTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="ChannelCommunicationModelTest"></a>
+<h3>TestCase ChannelCommunicationModelTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testName</td><td>Success</td><td></td><td>0.014</td>
+</tr>
+<tr valign="top" class="">
+<td>testSubscribeBasics</td><td>Success</td><td></td><td>0.103</td>
+</tr>
+<tr valign="top" class="">
+<td>testSubscribeMultipleChannels</td><td>Success</td><td></td><td>0.015</td>
+</tr>
+<tr valign="top" class="">
+<td>testSubscribeMultipleTimesteps</td><td>Success</td><td></td><td>0.015</td>
+</tr>
+<tr valign="top" class="">
+<td>testVoiceDoesNotNeedSubscribe</td><td>Success</td><td></td><td>0.016</td>
+</tr>
+<tr valign="top" class="">
+<td>testVoiceWorksWithSubscribe</td><td>Success</td><td></td><td>0.013</td>
+</tr>
+<tr valign="top" class="">
+<td>testVoiceDistance</td><td>Success</td><td></td><td>0.013</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalidConfig</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="">
+<td>testPartlyInvalidConfig</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="">
+<td>testMissingChannelsConfig</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="">
+<td>testExtraChannelsConfig</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="">
+<td>testIncorrectChannel</td><td>Success</td><td></td><td>0.005</td>
+</tr>
+<tr valign="top" class="">
+<td>testSubscribeNonExistantEntity</td><td>Success</td><td></td><td>0.006</td>
+</tr>
+<tr valign="top" class="">
+<td>testSubscriptionLimits</td><td>Success</td><td></td><td>0.009</td>
+</tr>
+<tr valign="top" class="">
+<td>testSubscriptionRemovesOldChannels</td><td>Success</td><td></td><td>0.007</td>
+</tr>
+<tr valign="top" class="">
+<td>testBadSubscriptionKeepsOKChannels</td><td>Success</td><td></td><td>0.008</td>
+</tr>
+<tr valign="top" class="">
+<td>testSubscribeFromNonAgent</td><td>Success</td><td></td><td>0.005</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('rescuecore2.standard.kernel.comms.ChannelCommunicationModelTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="ConfigExceptionTest"></a>
+<h3>TestCase ConfigExceptionTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testFilenameConstructor</td><td>Success</td><td></td><td>0.010</td>
+</tr>
+<tr valign="top" class="">
+<td>testFilenameAndStringConstructor</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testFilenameAndCauseConstructor</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testFilenameAndLineNumberConstructor</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testFilenameLineNumberAndStringConstructor</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testFilenameLineNumberAndCauseConstructor</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testFilenameStringAndCauseConstructor</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testFilenameLineNumberStringAndCauseConstructor</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('rescuecore2.config.ConfigExceptionTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="ConfigTest"></a>
+<h3>TestCase ConfigTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testConstructor</td><td>Success</td><td></td><td>0.013</td>
+</tr>
+<tr valign="top" class="">
+<td>testReadFile</td><td>Success</td><td></td><td>0.046</td>
+</tr>
+<tr valign="top" class="">
+<td>testReadReader</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="">
+<td>testReadReaderWithInclude</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testReadResource</td><td>Success</td><td></td><td>0.004</td>
+</tr>
+<tr valign="top" class="">
+<td>testCommentsIgnored</td><td>Success</td><td></td><td>0.009</td>
+</tr>
+<tr valign="top" class="">
+<td>testReadFromConstructor</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="">
+<td>testReadWithIncludes</td><td>Success</td><td></td><td>0.005</td>
+</tr>
+<tr valign="top" class="">
+<td>testReadWithIncludes2</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="">
+<td>testReadMultiple</td><td>Success</td><td></td><td>0.005</td>
+</tr>
+<tr valign="top" class="">
+<td>testReadMultipleWithIncludes</td><td>Success</td><td></td><td>0.004</td>
+</tr>
+<tr valign="top" class="">
+<td>testReadWithIncludeSubdir</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testReadWithIncludeSubdirFile</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testReadEntireDirectory</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testReadEntireDirectoryTree</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testWhitespace</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetCaseSensitive</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetAllKeys</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="">
+<td>testStrings</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testIntegers</td><td>Success</td><td></td><td>0.004</td>
+</tr>
+<tr valign="top" class="">
+<td>testDoubles</td><td>Success</td><td></td><td>0.006</td>
+</tr>
+<tr valign="top" class="">
+<td>testBooleans</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testParseBooleans</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="">
+<td>testArrays</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="">
+<td>testArraysDefaultValue</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testRemoveKey</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testRemoveAllKeys</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testReadNullFile</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testReadNullString</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testReadNullReader</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testReadNonexistantFile</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testNonExistantInclude</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testEmptyInclude</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testMalformedConfig</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testWrite</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testWriteNullWriter</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetNullKey</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetNullIntKey</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetNullFloatKey</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetNullBooleanKey</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testSetNullKey</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testSetNullIntKey</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testSetNullFloatKey</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testSetNullBooleanKey</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testRemoveNullKey</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testSetNullValue</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetNonexistantKey</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testSetMethodsClearCache</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testRemoveKeyClearsCache</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testRemoveAllKeysClearsCache</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetValueWithDefault</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetValueWithNullKeyAndDefault</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetIntValueWithDefault</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetIntValueWithNullKeyAndDefault</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetFloatValueWithDefault</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetFloatValueWithNullKeyAndDefault</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetBooleanValueWithDefault</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetBooleanValueWithNullKeyAndDefault</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testDollarNotation</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testBrokenDollarNotation</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testDollarNotationSetValue</td><td>Success</td><td></td><td>0.006</td>
+</tr>
+<tr valign="top" class="">
+<td>testDollarNotationCache</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testDollarNotationTypes</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="">
+<td>testWriteWithReferences</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testReferenceWithDefault</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('rescuecore2.config.ConfigTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="ConnectionManagerTest"></a>
+<h3>TestCase ConnectionManagerTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testListen</td><td>Success</td><td></td><td>1.099</td>
+</tr>
+<tr valign="top" class="">
+<td>testListenMultiplePorts</td><td>Success</td><td></td><td>1.005</td>
+</tr>
+<tr valign="top" class="">
+<td>testShutdown</td><td>Success</td><td></td><td>2.004</td>
+</tr>
+<tr valign="top" class="">
+<td>testShutdownPreventsListen</td><td>Success</td><td></td><td>1.006</td>
+</tr>
+<tr valign="top" class="">
+<td>testInterruptedShutdown</td><td>Success</td><td></td><td>2.005</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('rescuecore2.connection.ConnectionManagerTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="StreamConnectionTest"></a>
+<h3>TestCase StreamConnectionTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testSendBytes</td><td>Success</td><td></td><td>1.063</td>
+</tr>
+<tr valign="top" class="">
+<td>testIOExceptionOnReadSize</td><td>Success</td><td></td><td>1.003</td>
+</tr>
+<tr valign="top" class="">
+<td>testIOExceptionOnReadSize2</td><td>Success</td><td></td><td>1.002</td>
+</tr>
+<tr valign="top" class="">
+<td>testIOExceptionOnReadContent</td><td>Success</td><td></td><td>1.002</td>
+</tr>
+<tr valign="top" class="">
+<td>testNegativeSizeInput</td><td>Success</td><td></td><td>0.015</td>
+</tr>
+<tr valign="top" class="">
+<td>testShortContent</td><td>Success</td><td></td><td>3.004</td>
+</tr>
+<tr valign="top" class="">
+<td>testShortSizeField</td><td>Success</td><td></td><td>3.002</td>
+</tr>
+<tr valign="top" class="">
+<td>testExceptionOnOutputFlush</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="">
+<td>testExceptionOnOutputClose</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="">
+<td>testExceptionOnInputClose</td><td>Success</td><td></td><td>0.004</td>
+</tr>
+<tr valign="top" class="">
+<td>testInterruptedDuringShutdown</td><td>Success</td><td></td><td>0.006</td>
+</tr>
+<tr valign="top" class="">
+<td>testNoMessagesReceivedBeforeStartup</td><td>Success</td><td></td><td>1.005</td>
+</tr>
+<tr valign="top" class="">
+<td>testNoMessagesAfterShutdown</td><td>Success</td><td></td><td>1.007</td>
+</tr>
+<tr valign="top" class="">
+<td>testIsAlive</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="">
+<td>testRemoveConnectionListener</td><td>Success</td><td></td><td>1.011</td>
+</tr>
+<tr valign="top" class="">
+<td>testMultipleStartup</td><td>Success</td><td></td><td>0.008</td>
+</tr>
+<tr valign="top" class="">
+<td>testMultipleShutdown</td><td>Success</td><td></td><td>2.007</td>
+</tr>
+<tr valign="top" class="">
+<td>testSendMessage</td><td>Success</td><td></td><td>0.007</td>
+</tr>
+<tr valign="top" class="">
+<td>testSendMessages</td><td>Success</td><td></td><td>0.008</td>
+</tr>
+<tr valign="top" class="">
+<td>testSendNullMessage</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testSendNullMessages</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testSendMessageBeforeStartup</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testSendMessageAfterShutdown</td><td>Success</td><td></td><td>0.004</td>
+</tr>
+<tr valign="top" class="">
+<td>testRegisterNewMessageFactory</td><td>Success</td><td></td><td>0.020</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('rescuecore2.connection.StreamConnectionTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="TCPConnectionTest"></a>
+<h3>TestCase TCPConnectionTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testName</td><td>Success</td><td></td><td>0.028</td>
+</tr>
+<tr valign="top" class="">
+<td>testConnectToPort</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testConnectToHostAndPort</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testShutdownIOException</td><td>Success</td><td></td><td>1.052</td>
+</tr>
+<tr valign="top" class="">
+<td>testNoMessagesReceivedBeforeStartup</td><td>Success</td><td></td><td>1.010</td>
+</tr>
+<tr valign="top" class="">
+<td>testNoMessagesAfterShutdown</td><td>Success</td><td></td><td>2.005</td>
+</tr>
+<tr valign="top" class="">
+<td>testIsAlive</td><td>Success</td><td></td><td>1.002</td>
+</tr>
+<tr valign="top" class="">
+<td>testRemoveConnectionListener</td><td>Success</td><td></td><td>1.007</td>
+</tr>
+<tr valign="top" class="">
+<td>testMultipleStartup</td><td>Success</td><td></td><td>0.006</td>
+</tr>
+<tr valign="top" class="">
+<td>testMultipleShutdown</td><td>Success</td><td></td><td>3.008</td>
+</tr>
+<tr valign="top" class="">
+<td>testSendMessage</td><td>Success</td><td></td><td>0.013</td>
+</tr>
+<tr valign="top" class="">
+<td>testSendMessages</td><td>Success</td><td></td><td>0.008</td>
+</tr>
+<tr valign="top" class="">
+<td>testSendNullMessage</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="">
+<td>testSendNullMessages</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testSendMessageBeforeStartup</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testSendMessageAfterShutdown</td><td>Success</td><td></td><td>1.005</td>
+</tr>
+<tr valign="top" class="">
+<td>testRegisterNewMessageFactory</td><td>Success</td><td></td><td>0.011</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('rescuecore2.connection.TCPConnectionTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a>
+</body>
+</html>
