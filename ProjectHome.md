@@ -1,0 +1,1 @@
+RCR Team developed at UFRGS in Autonomous Agents and Multi-agent Systems class. This is a simple sample of a team developed with a short deadline.
